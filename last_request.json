@@ -1,0 +1,1 @@
+{"action": "apply_watermark", "directory": "C:\\Users\\bdex0\\Downloads\\test", "params": {"watermark": "C:\\Users\\bdex0\\Downloads\\x.png", "text": "EMELER", "include_date": true, "image_position": "middle_center", "text_position": "bottom_right", "size": 40, "transparency": 100, "soft_edge": false}}

@@ -1,0 +1,4 @@
+PyPDF2
+Pillow
+windows-curses; sys_platform == 'win32'
+InquirerPy
