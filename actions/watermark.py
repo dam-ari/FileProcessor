@@ -2,12 +2,19 @@ import os
 import logging
 import json
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
-import PyPDF2
 from file_utils import get_metadata, get_files_to_process
 from datetime import datetime
+from config import (
+    DEFAULT_WATERMARK_SIZE,
+    DEFAULT_WATERMARK_TRANSPARENCY,
+    DEFAULT_FONT_SIZE,
+    DEFAULT_SOFT_EDGE,
+    DEFAULT_INCLUDE_DATE,
+    DEFAULT_WATERMARK_POSITION
+)
 
-def apply_watermark_to_files(directory, watermark, text=None, include_date=False, image_position="bottom_center", text_position="bottom_center", size=20, transparency=128, soft_edge=True, font_size=20, font=""):
-    files_to_process = get_files_to_process(directory)
+def apply_watermark_to_files(directory, watermark, text=None, include_date=DEFAULT_INCLUDE_DATE, image_position=DEFAULT_WATERMARK_POSITION, text_position=DEFAULT_WATERMARK_POSITION, size=DEFAULT_WATERMARK_SIZE, transparency=DEFAULT_WATERMARK_TRANSPARENCY, soft_edge=DEFAULT_SOFT_EDGE, font_size=DEFAULT_FONT_SIZE, font="", include_subdirectories=True):
+    files_to_process = get_files_to_process(directory, include_subdirectories)
     if not files_to_process:
         logging.error(f"No files found to process in directory: {directory}")
         return False, False
@@ -17,9 +24,7 @@ def apply_watermark_to_files(directory, watermark, text=None, include_date=False
 def apply_watermark(files, watermark, text=None, include_date=False, image_position="bottom_center", text_position="bottom_center", size=10, transparency=128, soft_edge=True, font_size=20, font=""):
     success = True
     partial_success = False
-    //logging.debug(f"Applying watermark: {watermark}, text: {text}, date: {include_date}, image position: {image_position}, text position: {text_position}, size: {size}%, transparency: {transparency}, soft edge: {soft_edge}, font size: {font_size}, font: {font}")
     for file in files:
-        //logging.debug(f"Processing file: {file}")
         try:
             if file.endswith('.pdf'):
                 apply_pdf_watermark(file, watermark, text, include_date, image_position, text_position, size, font_size, font)
@@ -34,30 +39,9 @@ def apply_watermark(files, watermark, text=None, include_date=False, image_posit
             success = False
     return success, partial_success
 
-def apply_pdf_watermark(input_pdf, watermark, text, include_date, image_position, text_position, size, font_size, font):
-    output_pdf = os.path.join(os.path.dirname(input_pdf), f"watermarked_{os.path.basename(input_pdf)}")
-    try:
-        pdf_reader = PyPDF2.PdfFileReader(input_pdf)
-        pdf_writer = PyPDF2.PdfFileWriter()
-        watermark_obj = PyPDF2.PdfFileReader(watermark)
-
-        for i in range(pdf_reader.numPages):
-            page = pdf_reader.getPage(i)
-            page.merge_page(watermark_obj.getPage(0))
-            pdf_writer.addPage(page)
-
-        with open(output_pdf, 'wb') as out_file:
-            pdf_writer.write(out_file)
-        logging.info(f"Watermark applied to PDF file: {input_pdf}, saved as {output_pdf}")
-    except Exception as e:
-        metadata = get_metadata(input_pdf)
-        logging.error(f"Error applying PDF watermark to {input_pdf}: {str(e)}, Metadata: {json.dumps(metadata)}")
-        raise
-
 def apply_image_watermark(input_image, watermark, text, include_date, image_position, text_position, size, transparency, soft_edge, font_size, font):
     output_image = os.path.join(os.path.dirname(input_image), f"watermarked_{os.path.basename(input_image)}")
     try:
-        //logging.debug(f"Opening base image: {input_image}")
         base_image = Image.open(input_image).convert("RGBA")
 
         # Create a transparent layer the size of the base image
@@ -65,7 +49,6 @@ def apply_image_watermark(input_image, watermark, text, include_date, image_posi
 
         if watermark:
             watermark = watermark.strip()  # Trim any leading or trailing spaces
-            //logging.debug(f"Opening watermark image: {watermark}")
             watermark_image = Image.open(watermark).convert("RGBA")
 
             # Scale the watermark to fit the base image if necessary
@@ -83,7 +66,6 @@ def apply_image_watermark(input_image, watermark, text, include_date, image_posi
             txt.paste(watermark_image, watermark_position, watermark_image)
 
         if text or include_date:
-            //logging.debug(f"Adding text watermark: {text}")
             draw = ImageDraw.Draw(txt)
             if font:
                 font = ImageFont.truetype(font, font_size)
@@ -98,6 +80,10 @@ def apply_image_watermark(input_image, watermark, text, include_date, image_posi
 
         # Combine the base image with the text/watermark layer
         watermarked_image = Image.alpha_composite(base_image, txt)
+        
+        if input_image.lower().endswith('.jpg') or input_image.lower().endswith('.jpeg'):
+            watermarked_image = watermarked_image.convert("RGB")
+        
         watermarked_image.save(output_image)
         logging.info(f"Watermark applied to image file: {input_image}, saved as {output_image}")
     except Exception as e:
@@ -106,7 +92,6 @@ def apply_image_watermark(input_image, watermark, text, include_date, image_posi
         raise
 
 def adjust_transparency(image, transparency):
-    # Adjust the transparency of the watermark image
     alpha = image.split()[3]
     alpha = ImageEnhance.Brightness(alpha).enhance(transparency / 255.0)
     image.putalpha(alpha)
@@ -116,7 +101,6 @@ def apply_soft_edges(image):
     width, height = image.size
     alpha = image.split()[3]
 
-    # Create a new alpha channel with the soft edges
     new_alpha = Image.new('L', (width, height), 0)
     draw = ImageDraw.Draw(new_alpha)
     for i in range(width):
@@ -124,7 +108,6 @@ def apply_soft_edges(image):
             distance = min(i, j, width - i, height - j)
             new_alpha.putpixel((i, j), max(0, min(255, distance * 5)))
 
-    # Combine the original alpha with the new alpha channel
     alpha = ImageEnhance.Brightness(new_alpha).enhance(1.0)
     image.putalpha(alpha)
     return image

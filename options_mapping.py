@@ -26,7 +26,7 @@ class ActionOption:
 actions = [
     ActionOption("✨", "Merge files", "actions.merge", "merge_files", "Merge all files in the directory", [
         {"type": "confirm", "name": "include_subdirectories", "message": "🔍 Include subdirectories?", "default": True},
-        {"type": "input", "name": "rows", "message": "🔢 Enter the number of rows for merging images:", "default": "1"},
+        {"type": "input", "name": "matrix", "message": "🔢 Enter the matrix for merging images (rows,cols):", "default": "1,1"},
         {"type": "list", "name": "fill_method", "message": "🖼️ Choose how to handle the last row:", "choices": ["stretch", "leave", "repeat"], "default": "stretch"}
     ]),
     ActionOption("📋", "Copy metadata", "actions.metadata", "copy_metadata", "Copy metadata of all files in the directory", [

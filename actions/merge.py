@@ -1,24 +1,48 @@
-import logging
 import os
+import logging
 from PIL import Image
+from PyPDF2 import PdfMerger
 from file_utils import get_files_to_process
 
-def merge_files(directory, rows=1, fill_method="stretch", **kwargs):
+
+def merge_files(directory, matrix="1,1", fill_method="stretch", include_subdirectories=True):
+    
     try:
-        files_to_process = get_files_to_process(directory)
-        images = [Image.open(file) for file in files_to_process if file.lower().endswith(('.png', '.jpg', '.jpeg', '.webp'))]
+        files_to_process = get_files_to_process(directory, include_subdirectories)
+        pdfs = sorted([file for file in files_to_process if file.lower().endswith('.pdf')])
+        images = sorted([file for file in files_to_process if file.lower().endswith(('.png', '.jpg', '.jpeg', '.webp'))])
 
-        if not images:
-            logging.error(f"No images found to merge in directory: {directory}")
-            return False, False
+        if pdfs:
+            merge_pdfs(pdfs, directory)
+        if images:
+            merge_images(images, directory, matrix, fill_method)
+        
+        return True, False
+    except Exception as e:
+        logging.error(f"Error merging files: {str(e)}")
+        return False, True
 
-        # Determine the number of columns based on the number of rows
+def merge_pdfs(pdfs, output_directory):
+    try:
+        merger = PdfMerger()
+        for pdf in pdfs:
+            merger.append(pdf)
+        output_pdf = os.path.join(output_directory, "merged_file.pdf")
+        merger.write(output_pdf)
+        merger.close()
+        logging.info(f"Merged PDF saved as {output_pdf}")
+    except Exception as e:
+        logging.error(f"Error merging PDFs: {str(e)}")
+        raise
+
+def merge_images(images, output_directory, matrix, fill_method):
+    try:
+        rows, cols = map(int, matrix.split(','))
         num_images = len(images)
-        cols = (num_images + rows - 1) // rows
 
         # Get the maximum width and height of the images
-        max_width = max(image.width for image in images)
-        max_height = max(image.height for image in images)
+        max_width = max(Image.open(image).width for image in images)
+        max_height = max(Image.open(image).height for image in images)
 
         # Calculate the size of the new image
         new_width = max_width * cols
@@ -28,11 +52,12 @@ def merge_files(directory, rows=1, fill_method="stretch", **kwargs):
 
         x_offset = 0
         y_offset = 0
-        for index, im in enumerate(images):
+        for index, image_path in enumerate(images):
             if index > 0 and index % cols == 0:
                 x_offset = 0
                 y_offset += max_height
 
+            im = Image.open(image_path)
             new_im.paste(im, (x_offset, y_offset))
             x_offset += max_width
 
@@ -40,7 +65,7 @@ def merge_files(directory, rows=1, fill_method="stretch", **kwargs):
         remaining = num_images % cols
         if remaining != 0:
             gap_width = new_width - x_offset
-            last_image = images[-1]
+            last_image = Image.open(images[-1])
 
             if fill_method == "stretch":
                 stretched = last_image.resize((gap_width, max_height))
@@ -52,10 +77,9 @@ def merge_files(directory, rows=1, fill_method="stretch", **kwargs):
             elif fill_method == "leave":
                 pass
 
-        output_image = os.path.join(directory, "merged_image.jpg")
+        output_image = os.path.join(output_directory, "merged_image.jpg")
         new_im.save(output_image)
         logging.info(f"Merged image saved as {output_image}")
-        return True, False
     except Exception as e:
-        logging.error(f"Error merging files: {str(e)}")
-        return False, True
+        logging.error(f"Error merging images: {str(e)}")
+        raise

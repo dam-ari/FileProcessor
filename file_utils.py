@@ -1,9 +1,11 @@
 import os
 import logging
 
-def get_files_to_process(directory):
+def get_files_to_process(directory, include_subdirectories=True):
     files_to_process = []
     for root, _, files in os.walk(directory):
+        if not include_subdirectories and root != directory:
+            continue
         for file in files:
             file_path = os.path.join(root, file)
             files_to_process.append(file_path)

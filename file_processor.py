@@ -4,7 +4,7 @@ import json
 import os
 from InquirerPy import prompt
 import importlib
-import logger_config
+import logger_config  # This initializes the logging configuration
 from file_utils import show_log_tail
 from options_mapping import main_menu_question, log_option_question, get_action_details
 from config import (
@@ -52,7 +52,7 @@ def get_params(action_details, previous=None):
         param_copy = param.copy()  # Create a copy of the param to avoid modifying the original
         if "condition" in param_copy:
             del param_copy["condition"]  # Remove the condition key from the copy if it exists
-        //logging.debug(f"Prompting for {param_name} with default {param['default']}")
+        logging.debug(f"Prompting for {param_name} with default {param['default']}")
         response = prompt([param_copy])[param_name]
         params[param_name] = response
         context[param_name] = response
@@ -104,9 +104,9 @@ def main():
         directory = prompt(directory_question)["directory"].strip()
         params = get_params(action_details) if action_details.params else {}
 
-    //logging.debug(f"Action: {action_details.get_action_name()}")
-    //logging.debug(f"Directory: {directory}")
-    //logging.debug(f"Parameters: {params}")
+    logging.debug(f"Action: {action_details.get_action_name()}")
+    logging.debug(f"Directory: {directory}")
+    logging.debug(f"Parameters: {params}")
 
     # Remove 'additional_params' and 'same_position' key from params if they exist
     if 'additional_params' in params:

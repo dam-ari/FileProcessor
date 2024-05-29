@@ -659,3 +659,850 @@
 2024-05-29 13:43:52,921 - DEBUG - Importing XpmImagePlugin
 2024-05-29 13:43:52,922 - DEBUG - Importing XVThumbImagePlugin
 2024-05-29 13:43:53,315 - INFO - Merged image saved as C:\Users\bdex0\Downloads\test\merged_image.jpg
+2024-05-29 20:37:18,272 - DEBUG - Using proactor: IocpProactor
+2024-05-29 20:38:12,046 - DEBUG - Prompting for include_subdirectories with default True
+2024-05-29 20:38:15,861 - DEBUG - Prompting for rows with default 1
+2024-05-29 20:38:22,183 - DEBUG - Prompting for fill_method with default stretch
+2024-05-29 20:38:25,826 - DEBUG - Action: merge_files
+2024-05-29 20:38:25,826 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 20:38:25,827 - DEBUG - Parameters: {'include_subdirectories': False, 'rows': '3', 'fill_method': 'stretch'}
+2024-05-29 20:38:26,087 - DEBUG - Importing BlpImagePlugin
+2024-05-29 20:38:26,089 - DEBUG - Importing BmpImagePlugin
+2024-05-29 20:38:26,089 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 20:38:26,090 - DEBUG - Importing CurImagePlugin
+2024-05-29 20:38:26,090 - DEBUG - Importing DcxImagePlugin
+2024-05-29 20:38:26,092 - DEBUG - Importing DdsImagePlugin
+2024-05-29 20:38:26,093 - DEBUG - Importing EpsImagePlugin
+2024-05-29 20:38:26,104 - DEBUG - Importing FitsImagePlugin
+2024-05-29 20:38:26,106 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 20:38:26,108 - DEBUG - Importing FliImagePlugin
+2024-05-29 20:38:26,109 - DEBUG - Importing FpxImagePlugin
+2024-05-29 20:38:26,111 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 20:38:26,111 - DEBUG - Importing FtexImagePlugin
+2024-05-29 20:38:26,112 - DEBUG - Importing GbrImagePlugin
+2024-05-29 20:38:26,114 - DEBUG - Importing GifImagePlugin
+2024-05-29 20:38:26,114 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 20:38:26,115 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 20:38:26,117 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 20:38:26,123 - DEBUG - Importing IcoImagePlugin
+2024-05-29 20:38:26,125 - DEBUG - Importing ImImagePlugin
+2024-05-29 20:38:26,127 - DEBUG - Importing ImtImagePlugin
+2024-05-29 20:38:26,129 - DEBUG - Importing IptcImagePlugin
+2024-05-29 20:38:26,130 - DEBUG - Importing JpegImagePlugin
+2024-05-29 20:38:26,130 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 20:38:26,130 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 20:38:26,130 - DEBUG - Importing MicImagePlugin
+2024-05-29 20:38:26,132 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 20:38:26,132 - DEBUG - Importing MpegImagePlugin
+2024-05-29 20:38:26,133 - DEBUG - Importing MpoImagePlugin
+2024-05-29 20:38:26,134 - DEBUG - Importing MspImagePlugin
+2024-05-29 20:38:26,134 - DEBUG - Importing PalmImagePlugin
+2024-05-29 20:38:26,136 - DEBUG - Importing PcdImagePlugin
+2024-05-29 20:38:26,136 - DEBUG - Importing PcxImagePlugin
+2024-05-29 20:38:26,136 - DEBUG - Importing PdfImagePlugin
+2024-05-29 20:38:26,144 - DEBUG - Importing PixarImagePlugin
+2024-05-29 20:38:26,145 - DEBUG - Importing PngImagePlugin
+2024-05-29 20:38:26,145 - DEBUG - Importing PpmImagePlugin
+2024-05-29 20:38:26,145 - DEBUG - Importing PsdImagePlugin
+2024-05-29 20:38:26,146 - DEBUG - Importing SgiImagePlugin
+2024-05-29 20:38:26,147 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 20:38:26,149 - DEBUG - Importing SunImagePlugin
+2024-05-29 20:38:26,149 - DEBUG - Importing TgaImagePlugin
+2024-05-29 20:38:26,150 - DEBUG - Importing TiffImagePlugin
+2024-05-29 20:38:26,150 - DEBUG - Importing WebPImagePlugin
+2024-05-29 20:38:26,195 - DEBUG - Importing WmfImagePlugin
+2024-05-29 20:38:26,201 - DEBUG - Importing XbmImagePlugin
+2024-05-29 20:38:26,206 - DEBUG - Importing XpmImagePlugin
+2024-05-29 20:38:26,209 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 20:38:26,347 - INFO - Merged image saved as C:\Users\bdex0\Downloads\test\merged_image.jpg
+2024-05-29 20:38:58,321 - DEBUG - Using proactor: IocpProactor
+2024-05-29 20:39:00,689 - DEBUG - Prompting for include_subdirectories with default False
+2024-05-29 20:39:03,558 - DEBUG - Prompting for rows with default 3
+2024-05-29 20:39:06,656 - DEBUG - Prompting for fill_method with default stretch
+2024-05-29 20:39:15,308 - DEBUG - Action: merge_files
+2024-05-29 20:39:15,309 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 20:39:15,309 - DEBUG - Parameters: {'include_subdirectories': False, 'rows': '3', 'fill_method': 'stretch'}
+2024-05-29 20:39:15,343 - DEBUG - Importing BlpImagePlugin
+2024-05-29 20:39:15,345 - DEBUG - Importing BmpImagePlugin
+2024-05-29 20:39:15,345 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 20:39:15,345 - DEBUG - Importing CurImagePlugin
+2024-05-29 20:39:15,346 - DEBUG - Importing DcxImagePlugin
+2024-05-29 20:39:15,347 - DEBUG - Importing DdsImagePlugin
+2024-05-29 20:39:15,348 - DEBUG - Importing EpsImagePlugin
+2024-05-29 20:39:15,360 - DEBUG - Importing FitsImagePlugin
+2024-05-29 20:39:15,361 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 20:39:15,362 - DEBUG - Importing FliImagePlugin
+2024-05-29 20:39:15,363 - DEBUG - Importing FpxImagePlugin
+2024-05-29 20:39:15,364 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 20:39:15,364 - DEBUG - Importing FtexImagePlugin
+2024-05-29 20:39:15,365 - DEBUG - Importing GbrImagePlugin
+2024-05-29 20:39:15,366 - DEBUG - Importing GifImagePlugin
+2024-05-29 20:39:15,366 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 20:39:15,367 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 20:39:15,367 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 20:39:15,370 - DEBUG - Importing IcoImagePlugin
+2024-05-29 20:39:15,371 - DEBUG - Importing ImImagePlugin
+2024-05-29 20:39:15,372 - DEBUG - Importing ImtImagePlugin
+2024-05-29 20:39:15,372 - DEBUG - Importing IptcImagePlugin
+2024-05-29 20:39:15,373 - DEBUG - Importing JpegImagePlugin
+2024-05-29 20:39:15,373 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 20:39:15,373 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 20:39:15,373 - DEBUG - Importing MicImagePlugin
+2024-05-29 20:39:15,375 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 20:39:15,375 - DEBUG - Importing MpegImagePlugin
+2024-05-29 20:39:15,376 - DEBUG - Importing MpoImagePlugin
+2024-05-29 20:39:15,377 - DEBUG - Importing MspImagePlugin
+2024-05-29 20:39:15,378 - DEBUG - Importing PalmImagePlugin
+2024-05-29 20:39:15,379 - DEBUG - Importing PcdImagePlugin
+2024-05-29 20:39:15,380 - DEBUG - Importing PcxImagePlugin
+2024-05-29 20:39:15,380 - DEBUG - Importing PdfImagePlugin
+2024-05-29 20:39:15,387 - DEBUG - Importing PixarImagePlugin
+2024-05-29 20:39:15,388 - DEBUG - Importing PngImagePlugin
+2024-05-29 20:39:15,388 - DEBUG - Importing PpmImagePlugin
+2024-05-29 20:39:15,388 - DEBUG - Importing PsdImagePlugin
+2024-05-29 20:39:15,389 - DEBUG - Importing SgiImagePlugin
+2024-05-29 20:39:15,389 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 20:39:15,390 - DEBUG - Importing SunImagePlugin
+2024-05-29 20:39:15,392 - DEBUG - Importing TgaImagePlugin
+2024-05-29 20:39:15,392 - DEBUG - Importing TiffImagePlugin
+2024-05-29 20:39:15,392 - DEBUG - Importing WebPImagePlugin
+2024-05-29 20:39:15,394 - DEBUG - Importing WmfImagePlugin
+2024-05-29 20:39:15,395 - DEBUG - Importing XbmImagePlugin
+2024-05-29 20:39:15,397 - DEBUG - Importing XpmImagePlugin
+2024-05-29 20:39:15,398 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 20:39:15,605 - INFO - Merged image saved as C:\Users\bdex0\Downloads\test\merged_image.jpg
+2024-05-29 20:39:41,809 - DEBUG - Using proactor: IocpProactor
+2024-05-29 20:39:43,613 - DEBUG - Prompting for include_subdirectories with default False
+2024-05-29 20:39:49,810 - DEBUG - Prompting for rows with default 3
+2024-05-29 20:40:10,381 - DEBUG - Prompting for fill_method with default stretch
+2024-05-29 20:40:12,330 - DEBUG - Action: merge_files
+2024-05-29 20:40:12,330 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 20:40:12,330 - DEBUG - Parameters: {'include_subdirectories': True, 'rows': '3', 'fill_method': 'stretch'}
+2024-05-29 20:40:12,378 - DEBUG - Importing BlpImagePlugin
+2024-05-29 20:40:12,380 - DEBUG - Importing BmpImagePlugin
+2024-05-29 20:40:12,380 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 20:40:12,381 - DEBUG - Importing CurImagePlugin
+2024-05-29 20:40:12,382 - DEBUG - Importing DcxImagePlugin
+2024-05-29 20:40:12,384 - DEBUG - Importing DdsImagePlugin
+2024-05-29 20:40:12,385 - DEBUG - Importing EpsImagePlugin
+2024-05-29 20:40:12,396 - DEBUG - Importing FitsImagePlugin
+2024-05-29 20:40:12,397 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 20:40:12,398 - DEBUG - Importing FliImagePlugin
+2024-05-29 20:40:12,398 - DEBUG - Importing FpxImagePlugin
+2024-05-29 20:40:12,400 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 20:40:12,400 - DEBUG - Importing FtexImagePlugin
+2024-05-29 20:40:12,401 - DEBUG - Importing GbrImagePlugin
+2024-05-29 20:40:12,402 - DEBUG - Importing GifImagePlugin
+2024-05-29 20:40:12,402 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 20:40:12,403 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 20:40:12,404 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 20:40:12,406 - DEBUG - Importing IcoImagePlugin
+2024-05-29 20:40:12,406 - DEBUG - Importing ImImagePlugin
+2024-05-29 20:40:12,408 - DEBUG - Importing ImtImagePlugin
+2024-05-29 20:40:12,409 - DEBUG - Importing IptcImagePlugin
+2024-05-29 20:40:12,409 - DEBUG - Importing JpegImagePlugin
+2024-05-29 20:40:12,409 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 20:40:12,409 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 20:40:12,410 - DEBUG - Importing MicImagePlugin
+2024-05-29 20:40:12,411 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 20:40:12,411 - DEBUG - Importing MpegImagePlugin
+2024-05-29 20:40:12,412 - DEBUG - Importing MpoImagePlugin
+2024-05-29 20:40:12,413 - DEBUG - Importing MspImagePlugin
+2024-05-29 20:40:12,413 - DEBUG - Importing PalmImagePlugin
+2024-05-29 20:40:12,414 - DEBUG - Importing PcdImagePlugin
+2024-05-29 20:40:12,415 - DEBUG - Importing PcxImagePlugin
+2024-05-29 20:40:12,415 - DEBUG - Importing PdfImagePlugin
+2024-05-29 20:40:12,421 - DEBUG - Importing PixarImagePlugin
+2024-05-29 20:40:12,422 - DEBUG - Importing PngImagePlugin
+2024-05-29 20:40:12,422 - DEBUG - Importing PpmImagePlugin
+2024-05-29 20:40:12,422 - DEBUG - Importing PsdImagePlugin
+2024-05-29 20:40:12,423 - DEBUG - Importing SgiImagePlugin
+2024-05-29 20:40:12,424 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 20:40:12,424 - DEBUG - Importing SunImagePlugin
+2024-05-29 20:40:12,425 - DEBUG - Importing TgaImagePlugin
+2024-05-29 20:40:12,426 - DEBUG - Importing TiffImagePlugin
+2024-05-29 20:40:12,426 - DEBUG - Importing WebPImagePlugin
+2024-05-29 20:40:12,428 - DEBUG - Importing WmfImagePlugin
+2024-05-29 20:40:12,429 - DEBUG - Importing XbmImagePlugin
+2024-05-29 20:40:12,431 - DEBUG - Importing XpmImagePlugin
+2024-05-29 20:40:12,432 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 20:40:12,637 - INFO - Merged image saved as C:\Users\bdex0\Downloads\test\merged_image.jpg
+2024-05-29 20:40:53,202 - DEBUG - Using proactor: IocpProactor
+2024-05-29 20:40:59,747 - DEBUG - Prompting for watermark with default 
+2024-05-29 20:41:15,304 - DEBUG - Prompting for additional_params with default False
+2024-05-29 20:41:21,834 - DEBUG - Action: apply_watermark
+2024-05-29 20:41:21,834 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 20:41:21,834 - DEBUG - Parameters: {'watermark': 'C:\\Users\\bdex0\\Downloads\\x.png', 'additional_params': False}
+2024-05-29 20:41:21,990 - DEBUG - Importing BlpImagePlugin
+2024-05-29 20:41:21,991 - DEBUG - Importing BmpImagePlugin
+2024-05-29 20:41:21,991 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 20:41:21,992 - DEBUG - Importing CurImagePlugin
+2024-05-29 20:41:21,993 - DEBUG - Importing DcxImagePlugin
+2024-05-29 20:41:21,994 - DEBUG - Importing DdsImagePlugin
+2024-05-29 20:41:21,995 - DEBUG - Importing EpsImagePlugin
+2024-05-29 20:41:22,007 - DEBUG - Importing FitsImagePlugin
+2024-05-29 20:41:22,008 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 20:41:22,009 - DEBUG - Importing FliImagePlugin
+2024-05-29 20:41:22,010 - DEBUG - Importing FpxImagePlugin
+2024-05-29 20:41:22,012 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 20:41:22,012 - DEBUG - Importing FtexImagePlugin
+2024-05-29 20:41:22,013 - DEBUG - Importing GbrImagePlugin
+2024-05-29 20:41:22,015 - DEBUG - Importing GifImagePlugin
+2024-05-29 20:41:22,015 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 20:41:22,016 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 20:41:22,017 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 20:41:22,042 - DEBUG - Importing IcoImagePlugin
+2024-05-29 20:41:22,044 - DEBUG - Importing ImImagePlugin
+2024-05-29 20:41:22,045 - DEBUG - Importing ImtImagePlugin
+2024-05-29 20:41:22,046 - DEBUG - Importing IptcImagePlugin
+2024-05-29 20:41:22,048 - DEBUG - Importing JpegImagePlugin
+2024-05-29 20:41:22,048 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 20:41:22,048 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 20:41:22,049 - DEBUG - Importing MicImagePlugin
+2024-05-29 20:41:22,051 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 20:41:22,051 - DEBUG - Importing MpegImagePlugin
+2024-05-29 20:41:22,052 - DEBUG - Importing MpoImagePlugin
+2024-05-29 20:41:22,054 - DEBUG - Importing MspImagePlugin
+2024-05-29 20:41:22,055 - DEBUG - Importing PalmImagePlugin
+2024-05-29 20:41:22,057 - DEBUG - Importing PcdImagePlugin
+2024-05-29 20:41:22,058 - DEBUG - Importing PcxImagePlugin
+2024-05-29 20:41:22,058 - DEBUG - Importing PdfImagePlugin
+2024-05-29 20:41:22,067 - DEBUG - Importing PixarImagePlugin
+2024-05-29 20:41:22,068 - DEBUG - Importing PngImagePlugin
+2024-05-29 20:41:22,068 - DEBUG - Importing PpmImagePlugin
+2024-05-29 20:41:22,068 - DEBUG - Importing PsdImagePlugin
+2024-05-29 20:41:22,069 - DEBUG - Importing SgiImagePlugin
+2024-05-29 20:41:22,070 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 20:41:22,071 - DEBUG - Importing SunImagePlugin
+2024-05-29 20:41:22,072 - DEBUG - Importing TgaImagePlugin
+2024-05-29 20:41:22,073 - DEBUG - Importing TiffImagePlugin
+2024-05-29 20:41:22,073 - DEBUG - Importing WebPImagePlugin
+2024-05-29 20:41:22,074 - DEBUG - Importing WmfImagePlugin
+2024-05-29 20:41:22,075 - DEBUG - Importing XbmImagePlugin
+2024-05-29 20:41:22,076 - DEBUG - Importing XpmImagePlugin
+2024-05-29 20:41:22,077 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 20:41:22,602 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 20:41:23,069 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 20:41:23,300 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 20:41:23,303 - ERROR - Error applying watermark to C:\Users\bdex0\Downloads\test\Hume.pdf: name 'apply_pdf_watermark' is not defined, Metadata: {"size": 105412, "modified_time": 1680810449.6749015, "created_time": 1717004286.031151}
+2024-05-29 20:41:23,627 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\merged_image.jpg, saved as C:\Users\bdex0\Downloads\test\watermarked_merged_image.jpg
+2024-05-29 20:41:23,630 - ERROR - Error applying watermark to C:\Users\bdex0\Downloads\test\\u05d0\u05dc\u05d2\u05d5 2 \u05d3\u05e3 \u05e0\u05d5\u05e1\u05d7\u05d0\u05d5\u05ea.pdf: name 'apply_pdf_watermark' is not defined, Metadata: {"size": 553708, "modified_time": 1689770790.794164, "created_time": 1717004286.0410666}
+2024-05-29 20:41:23,966 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 20:41:24,220 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 20:41:59,452 - DEBUG - Using proactor: IocpProactor
+2024-05-29 20:42:01,325 - DEBUG - Prompting for watermark with default C:\Users\bdex0\Downloads\x.png
+2024-05-29 20:42:02,892 - DEBUG - Prompting for additional_params with default False
+2024-05-29 20:42:04,864 - DEBUG - Prompting for text with default 
+2024-05-29 20:42:06,142 - DEBUG - Prompting for include_date with default False
+2024-05-29 20:42:08,593 - DEBUG - Prompting for image_position with default bottom_center
+2024-05-29 20:42:11,672 - DEBUG - Prompting for size with default 40
+2024-05-29 20:42:14,815 - DEBUG - Prompting for transparency with default 100
+2024-05-29 20:42:18,395 - DEBUG - Prompting for soft_edge with default True
+2024-05-29 20:42:20,682 - DEBUG - Action: apply_watermark
+2024-05-29 20:42:20,682 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 20:42:20,682 - DEBUG - Parameters: {'watermark': 'C:\\Users\\bdex0\\Downloads\\x.png', 'additional_params': True, 'text': '', 'include_date': True, 'image_position': 'middle_center', 'size': '40', 'transparency': '110', 'soft_edge': True}
+2024-05-29 20:42:20,732 - DEBUG - Importing BlpImagePlugin
+2024-05-29 20:42:20,734 - DEBUG - Importing BmpImagePlugin
+2024-05-29 20:42:20,734 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 20:42:20,735 - DEBUG - Importing CurImagePlugin
+2024-05-29 20:42:20,736 - DEBUG - Importing DcxImagePlugin
+2024-05-29 20:42:20,737 - DEBUG - Importing DdsImagePlugin
+2024-05-29 20:42:20,739 - DEBUG - Importing EpsImagePlugin
+2024-05-29 20:42:20,758 - DEBUG - Importing FitsImagePlugin
+2024-05-29 20:42:20,760 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 20:42:20,761 - DEBUG - Importing FliImagePlugin
+2024-05-29 20:42:20,762 - DEBUG - Importing FpxImagePlugin
+2024-05-29 20:42:20,764 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 20:42:20,764 - DEBUG - Importing FtexImagePlugin
+2024-05-29 20:42:20,765 - DEBUG - Importing GbrImagePlugin
+2024-05-29 20:42:20,766 - DEBUG - Importing GifImagePlugin
+2024-05-29 20:42:20,766 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 20:42:20,767 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 20:42:20,769 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 20:42:20,774 - DEBUG - Importing IcoImagePlugin
+2024-05-29 20:42:20,775 - DEBUG - Importing ImImagePlugin
+2024-05-29 20:42:20,777 - DEBUG - Importing ImtImagePlugin
+2024-05-29 20:42:20,779 - DEBUG - Importing IptcImagePlugin
+2024-05-29 20:42:20,780 - DEBUG - Importing JpegImagePlugin
+2024-05-29 20:42:20,780 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 20:42:20,780 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 20:42:20,782 - DEBUG - Importing MicImagePlugin
+2024-05-29 20:42:20,784 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 20:42:20,784 - DEBUG - Importing MpegImagePlugin
+2024-05-29 20:42:20,785 - DEBUG - Importing MpoImagePlugin
+2024-05-29 20:42:20,785 - DEBUG - Importing MspImagePlugin
+2024-05-29 20:42:20,786 - DEBUG - Importing PalmImagePlugin
+2024-05-29 20:42:20,788 - DEBUG - Importing PcdImagePlugin
+2024-05-29 20:42:20,788 - DEBUG - Importing PcxImagePlugin
+2024-05-29 20:42:20,789 - DEBUG - Importing PdfImagePlugin
+2024-05-29 20:42:20,796 - DEBUG - Importing PixarImagePlugin
+2024-05-29 20:42:20,797 - DEBUG - Importing PngImagePlugin
+2024-05-29 20:42:20,797 - DEBUG - Importing PpmImagePlugin
+2024-05-29 20:42:20,797 - DEBUG - Importing PsdImagePlugin
+2024-05-29 20:42:20,798 - DEBUG - Importing SgiImagePlugin
+2024-05-29 20:42:20,798 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 20:42:20,799 - DEBUG - Importing SunImagePlugin
+2024-05-29 20:42:20,800 - DEBUG - Importing TgaImagePlugin
+2024-05-29 20:42:20,801 - DEBUG - Importing TiffImagePlugin
+2024-05-29 20:42:20,801 - DEBUG - Importing WebPImagePlugin
+2024-05-29 20:42:20,803 - DEBUG - Importing WmfImagePlugin
+2024-05-29 20:42:20,804 - DEBUG - Importing XbmImagePlugin
+2024-05-29 20:42:20,805 - DEBUG - Importing XpmImagePlugin
+2024-05-29 20:42:20,806 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 20:42:21,495 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 20:42:22,131 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 20:42:22,672 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 20:42:22,673 - ERROR - Error applying watermark to C:\Users\bdex0\Downloads\test\Hume.pdf: name 'apply_pdf_watermark' is not defined, Metadata: {"size": 105412, "modified_time": 1680810449.6749015, "created_time": 1717004286.031151}
+2024-05-29 20:42:23,677 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\merged_image.jpg, saved as C:\Users\bdex0\Downloads\test\watermarked_merged_image.jpg
+2024-05-29 20:42:23,689 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 20:42:23,689 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 20:42:24,364 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_a.png
+2024-05-29 20:42:24,370 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 20:42:24,370 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 20:42:25,195 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_b.png
+2024-05-29 20:42:25,601 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_c.webp
+2024-05-29 20:42:26,590 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_merged_image.jpg, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_merged_image.jpg
+2024-05-29 20:42:26,594 - ERROR - Error applying watermark to C:\Users\bdex0\Downloads\test\\u05d0\u05dc\u05d2\u05d5 2 \u05d3\u05e3 \u05e0\u05d5\u05e1\u05d7\u05d0\u05d5\u05ea.pdf: name 'apply_pdf_watermark' is not defined, Metadata: {"size": 553708, "modified_time": 1689770790.794164, "created_time": 1717004286.0410666}
+2024-05-29 20:42:27,029 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 20:42:27,400 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 20:42:27,802 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
+2024-05-29 20:42:28,212 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
+2024-05-29 20:45:08,207 - DEBUG - Using proactor: IocpProactor
+2024-05-29 20:45:12,468 - DEBUG - Prompting for include_subdirectories with default True
+2024-05-29 20:45:16,969 - DEBUG - Prompting for rows with default 1
+2024-05-29 20:45:23,920 - DEBUG - Prompting for fill_method with default stretch
+2024-05-29 20:45:26,090 - DEBUG - Action: merge_files
+2024-05-29 20:45:26,090 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 20:45:26,090 - DEBUG - Parameters: {'include_subdirectories': False, 'rows': '3', 'fill_method': 'repeat'}
+2024-05-29 20:45:26,172 - DEBUG - Importing BlpImagePlugin
+2024-05-29 20:45:26,173 - DEBUG - Importing BmpImagePlugin
+2024-05-29 20:45:26,173 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 20:45:26,174 - DEBUG - Importing CurImagePlugin
+2024-05-29 20:45:26,175 - DEBUG - Importing DcxImagePlugin
+2024-05-29 20:45:26,176 - DEBUG - Importing DdsImagePlugin
+2024-05-29 20:45:26,177 - DEBUG - Importing EpsImagePlugin
+2024-05-29 20:45:26,196 - DEBUG - Importing FitsImagePlugin
+2024-05-29 20:45:26,198 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 20:45:26,199 - DEBUG - Importing FliImagePlugin
+2024-05-29 20:45:26,201 - DEBUG - Importing FpxImagePlugin
+2024-05-29 20:45:26,203 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 20:45:26,203 - DEBUG - Importing FtexImagePlugin
+2024-05-29 20:45:26,204 - DEBUG - Importing GbrImagePlugin
+2024-05-29 20:45:26,205 - DEBUG - Importing GifImagePlugin
+2024-05-29 20:45:26,205 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 20:45:26,206 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 20:45:26,207 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 20:45:26,211 - DEBUG - Importing IcoImagePlugin
+2024-05-29 20:45:26,212 - DEBUG - Importing ImImagePlugin
+2024-05-29 20:45:26,213 - DEBUG - Importing ImtImagePlugin
+2024-05-29 20:45:26,215 - DEBUG - Importing IptcImagePlugin
+2024-05-29 20:45:26,217 - DEBUG - Importing JpegImagePlugin
+2024-05-29 20:45:26,217 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 20:45:26,217 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 20:45:26,218 - DEBUG - Importing MicImagePlugin
+2024-05-29 20:45:26,221 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 20:45:26,221 - DEBUG - Importing MpegImagePlugin
+2024-05-29 20:45:26,223 - DEBUG - Importing MpoImagePlugin
+2024-05-29 20:45:26,224 - DEBUG - Importing MspImagePlugin
+2024-05-29 20:45:26,226 - DEBUG - Importing PalmImagePlugin
+2024-05-29 20:45:26,228 - DEBUG - Importing PcdImagePlugin
+2024-05-29 20:45:26,230 - DEBUG - Importing PcxImagePlugin
+2024-05-29 20:45:26,230 - DEBUG - Importing PdfImagePlugin
+2024-05-29 20:45:26,241 - DEBUG - Importing PixarImagePlugin
+2024-05-29 20:45:26,242 - DEBUG - Importing PngImagePlugin
+2024-05-29 20:45:26,242 - DEBUG - Importing PpmImagePlugin
+2024-05-29 20:45:26,242 - DEBUG - Importing PsdImagePlugin
+2024-05-29 20:45:26,243 - DEBUG - Importing SgiImagePlugin
+2024-05-29 20:45:26,244 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 20:45:26,246 - DEBUG - Importing SunImagePlugin
+2024-05-29 20:45:26,247 - DEBUG - Importing TgaImagePlugin
+2024-05-29 20:45:26,249 - DEBUG - Importing TiffImagePlugin
+2024-05-29 20:45:26,249 - DEBUG - Importing WebPImagePlugin
+2024-05-29 20:45:26,252 - DEBUG - Importing WmfImagePlugin
+2024-05-29 20:45:26,254 - DEBUG - Importing XbmImagePlugin
+2024-05-29 20:45:26,257 - DEBUG - Importing XpmImagePlugin
+2024-05-29 20:45:26,259 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 20:45:26,266 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 20:45:26,266 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 20:45:26,267 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 20:45:26,267 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 20:45:26,280 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 20:45:26,280 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 20:45:26,290 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 20:45:26,290 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 20:45:27,098 - INFO - Merged image saved as C:\Users\bdex0\Downloads\test\merged_image.jpg
+2024-05-29 21:01:18,514 - DEBUG - Using proactor: IocpProactor
+2024-05-29 21:01:30,578 - DEBUG - Prompting for include_subdirectories with default True
+2024-05-29 21:01:34,629 - DEBUG - Prompting for matrix with default 1,1
+2024-05-29 21:01:42,720 - DEBUG - Prompting for fill_method with default stretch
+2024-05-29 21:01:46,339 - DEBUG - Action: merge_files
+2024-05-29 21:01:46,339 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 21:01:46,339 - DEBUG - Parameters: {'include_subdirectories': True, 'matrix': '2, 3', 'fill_method': 'stretch'}
+2024-05-29 21:01:46,857 - INFO - Merged PDF saved as C:\Users\bdex0\Downloads\test\merged_file.pdf
+2024-05-29 21:01:46,886 - DEBUG - Importing BlpImagePlugin
+2024-05-29 21:01:46,887 - DEBUG - Importing BmpImagePlugin
+2024-05-29 21:01:46,887 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 21:01:46,888 - DEBUG - Importing CurImagePlugin
+2024-05-29 21:01:46,889 - DEBUG - Importing DcxImagePlugin
+2024-05-29 21:01:46,891 - DEBUG - Importing DdsImagePlugin
+2024-05-29 21:01:46,892 - DEBUG - Importing EpsImagePlugin
+2024-05-29 21:01:46,908 - DEBUG - Importing FitsImagePlugin
+2024-05-29 21:01:46,910 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 21:01:46,911 - DEBUG - Importing FliImagePlugin
+2024-05-29 21:01:46,912 - DEBUG - Importing FpxImagePlugin
+2024-05-29 21:01:46,914 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 21:01:46,914 - DEBUG - Importing FtexImagePlugin
+2024-05-29 21:01:46,915 - DEBUG - Importing GbrImagePlugin
+2024-05-29 21:01:46,916 - DEBUG - Importing GifImagePlugin
+2024-05-29 21:01:46,918 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 21:01:46,919 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 21:01:46,920 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 21:01:46,924 - DEBUG - Importing IcoImagePlugin
+2024-05-29 21:01:46,927 - DEBUG - Importing ImImagePlugin
+2024-05-29 21:01:46,927 - DEBUG - Importing ImtImagePlugin
+2024-05-29 21:01:46,930 - DEBUG - Importing IptcImagePlugin
+2024-05-29 21:01:46,930 - DEBUG - Importing JpegImagePlugin
+2024-05-29 21:01:46,930 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 21:01:46,930 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 21:01:46,932 - DEBUG - Importing MicImagePlugin
+2024-05-29 21:01:46,934 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 21:01:46,934 - DEBUG - Importing MpegImagePlugin
+2024-05-29 21:01:46,935 - DEBUG - Importing MpoImagePlugin
+2024-05-29 21:01:46,937 - DEBUG - Importing MspImagePlugin
+2024-05-29 21:01:46,938 - DEBUG - Importing PalmImagePlugin
+2024-05-29 21:01:46,942 - DEBUG - Importing PcdImagePlugin
+2024-05-29 21:01:46,943 - DEBUG - Importing PcxImagePlugin
+2024-05-29 21:01:46,943 - DEBUG - Importing PdfImagePlugin
+2024-05-29 21:01:46,953 - DEBUG - Importing PixarImagePlugin
+2024-05-29 21:01:46,955 - DEBUG - Importing PngImagePlugin
+2024-05-29 21:01:46,955 - DEBUG - Importing PpmImagePlugin
+2024-05-29 21:01:46,955 - DEBUG - Importing PsdImagePlugin
+2024-05-29 21:01:46,956 - DEBUG - Importing SgiImagePlugin
+2024-05-29 21:01:46,957 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 21:01:46,959 - DEBUG - Importing SunImagePlugin
+2024-05-29 21:01:46,960 - DEBUG - Importing TgaImagePlugin
+2024-05-29 21:01:46,962 - DEBUG - Importing TiffImagePlugin
+2024-05-29 21:01:46,962 - DEBUG - Importing WebPImagePlugin
+2024-05-29 21:01:46,968 - DEBUG - Importing WmfImagePlugin
+2024-05-29 21:01:46,970 - DEBUG - Importing XbmImagePlugin
+2024-05-29 21:01:46,971 - DEBUG - Importing XpmImagePlugin
+2024-05-29 21:01:46,973 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 21:01:47,360 - INFO - Merged image saved as C:\Users\bdex0\Downloads\test\merged_image.jpg
+2024-05-29 21:03:28,748 - DEBUG - Using proactor: IocpProactor
+2024-05-29 21:03:35,477 - DEBUG - Prompting for include_subdirectories with default True
+2024-05-29 21:03:52,070 - DEBUG - Prompting for matrix with default 1,1
+2024-05-29 21:04:04,708 - DEBUG - Prompting for fill_method with default stretch
+2024-05-29 21:04:05,389 - DEBUG - Action: merge_files
+2024-05-29 21:04:05,389 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 21:04:05,389 - DEBUG - Parameters: {'include_subdirectories': True, 'matrix': '2, 3', 'fill_method': 'stretch'}
+2024-05-29 21:04:05,568 - INFO - Merged PDF saved as C:\Users\bdex0\Downloads\test\merged_file.pdf
+2024-05-29 21:04:05,584 - DEBUG - Importing BlpImagePlugin
+2024-05-29 21:04:05,585 - DEBUG - Importing BmpImagePlugin
+2024-05-29 21:04:05,585 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 21:04:05,586 - DEBUG - Importing CurImagePlugin
+2024-05-29 21:04:05,586 - DEBUG - Importing DcxImagePlugin
+2024-05-29 21:04:05,588 - DEBUG - Importing DdsImagePlugin
+2024-05-29 21:04:05,588 - DEBUG - Importing EpsImagePlugin
+2024-05-29 21:04:05,599 - DEBUG - Importing FitsImagePlugin
+2024-05-29 21:04:05,600 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 21:04:05,601 - DEBUG - Importing FliImagePlugin
+2024-05-29 21:04:05,602 - DEBUG - Importing FpxImagePlugin
+2024-05-29 21:04:05,603 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 21:04:05,603 - DEBUG - Importing FtexImagePlugin
+2024-05-29 21:04:05,604 - DEBUG - Importing GbrImagePlugin
+2024-05-29 21:04:05,605 - DEBUG - Importing GifImagePlugin
+2024-05-29 21:04:05,605 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 21:04:05,606 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 21:04:05,607 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 21:04:05,609 - DEBUG - Importing IcoImagePlugin
+2024-05-29 21:04:05,610 - DEBUG - Importing ImImagePlugin
+2024-05-29 21:04:05,611 - DEBUG - Importing ImtImagePlugin
+2024-05-29 21:04:05,612 - DEBUG - Importing IptcImagePlugin
+2024-05-29 21:04:05,612 - DEBUG - Importing JpegImagePlugin
+2024-05-29 21:04:05,612 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 21:04:05,612 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 21:04:05,613 - DEBUG - Importing MicImagePlugin
+2024-05-29 21:04:05,614 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 21:04:05,614 - DEBUG - Importing MpegImagePlugin
+2024-05-29 21:04:05,614 - DEBUG - Importing MpoImagePlugin
+2024-05-29 21:04:05,615 - DEBUG - Importing MspImagePlugin
+2024-05-29 21:04:05,615 - DEBUG - Importing PalmImagePlugin
+2024-05-29 21:04:05,616 - DEBUG - Importing PcdImagePlugin
+2024-05-29 21:04:05,617 - DEBUG - Importing PcxImagePlugin
+2024-05-29 21:04:05,617 - DEBUG - Importing PdfImagePlugin
+2024-05-29 21:04:05,622 - DEBUG - Importing PixarImagePlugin
+2024-05-29 21:04:05,623 - DEBUG - Importing PngImagePlugin
+2024-05-29 21:04:05,623 - DEBUG - Importing PpmImagePlugin
+2024-05-29 21:04:05,623 - DEBUG - Importing PsdImagePlugin
+2024-05-29 21:04:05,624 - DEBUG - Importing SgiImagePlugin
+2024-05-29 21:04:05,624 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 21:04:05,625 - DEBUG - Importing SunImagePlugin
+2024-05-29 21:04:05,625 - DEBUG - Importing TgaImagePlugin
+2024-05-29 21:04:05,626 - DEBUG - Importing TiffImagePlugin
+2024-05-29 21:04:05,626 - DEBUG - Importing WebPImagePlugin
+2024-05-29 21:04:05,628 - DEBUG - Importing WmfImagePlugin
+2024-05-29 21:04:05,629 - DEBUG - Importing XbmImagePlugin
+2024-05-29 21:04:05,630 - DEBUG - Importing XpmImagePlugin
+2024-05-29 21:04:05,630 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 21:04:05,809 - INFO - Merged image saved as C:\Users\bdex0\Downloads\test\merged_image.jpg
+2024-05-29 21:04:53,684 - DEBUG - Using proactor: IocpProactor
+2024-05-29 21:05:01,955 - DEBUG - Prompting for include_subdirectories with default True
+2024-05-29 21:05:03,588 - DEBUG - Prompting for matrix with default 1,1
+2024-05-29 21:05:09,044 - DEBUG - Prompting for fill_method with default stretch
+2024-05-29 21:05:10,925 - DEBUG - Action: merge_files
+2024-05-29 21:05:10,925 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 21:05:10,925 - DEBUG - Parameters: {'include_subdirectories': True, 'matrix': '2,3', 'fill_method': 'leave'}
+2024-05-29 21:05:11,198 - INFO - Merged PDF saved as C:\Users\bdex0\Downloads\test\merged_file.pdf
+2024-05-29 21:05:11,213 - DEBUG - Importing BlpImagePlugin
+2024-05-29 21:05:11,214 - DEBUG - Importing BmpImagePlugin
+2024-05-29 21:05:11,214 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 21:05:11,214 - DEBUG - Importing CurImagePlugin
+2024-05-29 21:05:11,215 - DEBUG - Importing DcxImagePlugin
+2024-05-29 21:05:11,216 - DEBUG - Importing DdsImagePlugin
+2024-05-29 21:05:11,217 - DEBUG - Importing EpsImagePlugin
+2024-05-29 21:05:11,228 - DEBUG - Importing FitsImagePlugin
+2024-05-29 21:05:11,229 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 21:05:11,230 - DEBUG - Importing FliImagePlugin
+2024-05-29 21:05:11,230 - DEBUG - Importing FpxImagePlugin
+2024-05-29 21:05:11,231 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 21:05:11,231 - DEBUG - Importing FtexImagePlugin
+2024-05-29 21:05:11,232 - DEBUG - Importing GbrImagePlugin
+2024-05-29 21:05:11,233 - DEBUG - Importing GifImagePlugin
+2024-05-29 21:05:11,233 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 21:05:11,233 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 21:05:11,234 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 21:05:11,236 - DEBUG - Importing IcoImagePlugin
+2024-05-29 21:05:11,236 - DEBUG - Importing ImImagePlugin
+2024-05-29 21:05:11,237 - DEBUG - Importing ImtImagePlugin
+2024-05-29 21:05:11,237 - DEBUG - Importing IptcImagePlugin
+2024-05-29 21:05:11,238 - DEBUG - Importing JpegImagePlugin
+2024-05-29 21:05:11,238 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 21:05:11,238 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 21:05:11,238 - DEBUG - Importing MicImagePlugin
+2024-05-29 21:05:11,239 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 21:05:11,239 - DEBUG - Importing MpegImagePlugin
+2024-05-29 21:05:11,240 - DEBUG - Importing MpoImagePlugin
+2024-05-29 21:05:11,241 - DEBUG - Importing MspImagePlugin
+2024-05-29 21:05:11,242 - DEBUG - Importing PalmImagePlugin
+2024-05-29 21:05:11,243 - DEBUG - Importing PcdImagePlugin
+2024-05-29 21:05:11,244 - DEBUG - Importing PcxImagePlugin
+2024-05-29 21:05:11,244 - DEBUG - Importing PdfImagePlugin
+2024-05-29 21:05:11,251 - DEBUG - Importing PixarImagePlugin
+2024-05-29 21:05:11,253 - DEBUG - Importing PngImagePlugin
+2024-05-29 21:05:11,253 - DEBUG - Importing PpmImagePlugin
+2024-05-29 21:05:11,253 - DEBUG - Importing PsdImagePlugin
+2024-05-29 21:05:11,254 - DEBUG - Importing SgiImagePlugin
+2024-05-29 21:05:11,255 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 21:05:11,255 - DEBUG - Importing SunImagePlugin
+2024-05-29 21:05:11,256 - DEBUG - Importing TgaImagePlugin
+2024-05-29 21:05:11,257 - DEBUG - Importing TiffImagePlugin
+2024-05-29 21:05:11,257 - DEBUG - Importing WebPImagePlugin
+2024-05-29 21:05:11,258 - DEBUG - Importing WmfImagePlugin
+2024-05-29 21:05:11,259 - DEBUG - Importing XbmImagePlugin
+2024-05-29 21:05:11,260 - DEBUG - Importing XpmImagePlugin
+2024-05-29 21:05:11,260 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 21:05:11,464 - INFO - Merged image saved as C:\Users\bdex0\Downloads\test\merged_image.jpg
+2024-05-29 21:05:28,839 - DEBUG - Using proactor: IocpProactor
+2024-05-29 21:05:29,799 - DEBUG - Prompting for include_subdirectories with default True
+2024-05-29 21:05:32,105 - DEBUG - Prompting for matrix with default 2,3
+2024-05-29 21:05:33,410 - DEBUG - Prompting for fill_method with default leave
+2024-05-29 21:05:34,674 - DEBUG - Action: merge_files
+2024-05-29 21:05:34,675 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 21:05:34,675 - DEBUG - Parameters: {'include_subdirectories': True, 'matrix': '2,3', 'fill_method': 'repeat'}
+2024-05-29 21:05:35,049 - INFO - Merged PDF saved as C:\Users\bdex0\Downloads\test\merged_file.pdf
+2024-05-29 21:05:35,064 - DEBUG - Importing BlpImagePlugin
+2024-05-29 21:05:35,066 - DEBUG - Importing BmpImagePlugin
+2024-05-29 21:05:35,066 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 21:05:35,066 - DEBUG - Importing CurImagePlugin
+2024-05-29 21:05:35,067 - DEBUG - Importing DcxImagePlugin
+2024-05-29 21:05:35,069 - DEBUG - Importing DdsImagePlugin
+2024-05-29 21:05:35,071 - DEBUG - Importing EpsImagePlugin
+2024-05-29 21:05:35,084 - DEBUG - Importing FitsImagePlugin
+2024-05-29 21:05:35,085 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 21:05:35,086 - DEBUG - Importing FliImagePlugin
+2024-05-29 21:05:35,087 - DEBUG - Importing FpxImagePlugin
+2024-05-29 21:05:35,088 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 21:05:35,089 - DEBUG - Importing FtexImagePlugin
+2024-05-29 21:05:35,090 - DEBUG - Importing GbrImagePlugin
+2024-05-29 21:05:35,090 - DEBUG - Importing GifImagePlugin
+2024-05-29 21:05:35,090 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 21:05:35,091 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 21:05:35,091 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 21:05:35,093 - DEBUG - Importing IcoImagePlugin
+2024-05-29 21:05:35,094 - DEBUG - Importing ImImagePlugin
+2024-05-29 21:05:35,095 - DEBUG - Importing ImtImagePlugin
+2024-05-29 21:05:35,096 - DEBUG - Importing IptcImagePlugin
+2024-05-29 21:05:35,096 - DEBUG - Importing JpegImagePlugin
+2024-05-29 21:05:35,096 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 21:05:35,097 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 21:05:35,097 - DEBUG - Importing MicImagePlugin
+2024-05-29 21:05:35,098 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 21:05:35,098 - DEBUG - Importing MpegImagePlugin
+2024-05-29 21:05:35,099 - DEBUG - Importing MpoImagePlugin
+2024-05-29 21:05:35,100 - DEBUG - Importing MspImagePlugin
+2024-05-29 21:05:35,100 - DEBUG - Importing PalmImagePlugin
+2024-05-29 21:05:35,101 - DEBUG - Importing PcdImagePlugin
+2024-05-29 21:05:35,102 - DEBUG - Importing PcxImagePlugin
+2024-05-29 21:05:35,102 - DEBUG - Importing PdfImagePlugin
+2024-05-29 21:05:35,108 - DEBUG - Importing PixarImagePlugin
+2024-05-29 21:05:35,109 - DEBUG - Importing PngImagePlugin
+2024-05-29 21:05:35,109 - DEBUG - Importing PpmImagePlugin
+2024-05-29 21:05:35,109 - DEBUG - Importing PsdImagePlugin
+2024-05-29 21:05:35,110 - DEBUG - Importing SgiImagePlugin
+2024-05-29 21:05:35,110 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 21:05:35,111 - DEBUG - Importing SunImagePlugin
+2024-05-29 21:05:35,112 - DEBUG - Importing TgaImagePlugin
+2024-05-29 21:05:35,113 - DEBUG - Importing TiffImagePlugin
+2024-05-29 21:05:35,113 - DEBUG - Importing WebPImagePlugin
+2024-05-29 21:05:35,114 - DEBUG - Importing WmfImagePlugin
+2024-05-29 21:05:35,115 - DEBUG - Importing XbmImagePlugin
+2024-05-29 21:05:35,116 - DEBUG - Importing XpmImagePlugin
+2024-05-29 21:05:35,117 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 21:05:35,304 - INFO - Merged image saved as C:\Users\bdex0\Downloads\test\merged_image.jpg
+2024-05-29 21:06:35,867 - DEBUG - Using proactor: IocpProactor
+2024-05-29 21:06:42,977 - DEBUG - Prompting for watermark with default 
+2024-05-29 21:07:11,627 - DEBUG - Prompting for additional_params with default False
+2024-05-29 21:07:15,693 - DEBUG - Prompting for text with default 
+2024-05-29 21:07:23,321 - DEBUG - Prompting for include_date with default False
+2024-05-29 21:07:25,072 - DEBUG - Prompting for image_position with default bottom_center
+2024-05-29 21:07:29,244 - DEBUG - Prompting for same_position with default True
+2024-05-29 21:07:34,882 - DEBUG - Prompting for text_position with default bottom_center
+2024-05-29 21:07:37,538 - DEBUG - Prompting for size with default 40
+2024-05-29 21:07:41,643 - DEBUG - Prompting for transparency with default 100
+2024-05-29 21:07:46,901 - DEBUG - Prompting for soft_edge with default True
+2024-05-29 21:07:49,649 - DEBUG - Prompting for font_size with default 20
+2024-05-29 21:07:51,171 - DEBUG - Action: apply_watermark
+2024-05-29 21:07:51,171 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 21:07:51,171 - DEBUG - Parameters: {'watermark': 'C:\\Users\\bdex0\\Downloads\\image_transparent.png', 'additional_params': True, 'text': 'EMERALD.Bar', 'include_date': True, 'image_position': 'middle_center', 'same_position': False, 'text_position': 'bottom_center', 'size': '40', 'transparency': '110', 'soft_edge': True, 'font_size': '20'}
+2024-05-29 21:07:51,224 - ERROR - Error applying watermark to C:\Users\bdex0\Downloads\test\1.pdf: name 'apply_pdf_watermark' is not defined, Metadata: {"size": 553708, "modified_time": 1689770790.794164, "created_time": 1717004286.0410666}
+2024-05-29 21:07:51,224 - ERROR - Error applying watermark to C:\Users\bdex0\Downloads\test\2.pdf: name 'apply_pdf_watermark' is not defined, Metadata: {"size": 105412, "modified_time": 1680810449.6749015, "created_time": 1717004286.031151}
+2024-05-29 21:07:51,235 - DEBUG - Importing BlpImagePlugin
+2024-05-29 21:07:51,236 - DEBUG - Importing BmpImagePlugin
+2024-05-29 21:07:51,236 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 21:07:51,237 - DEBUG - Importing CurImagePlugin
+2024-05-29 21:07:51,237 - DEBUG - Importing DcxImagePlugin
+2024-05-29 21:07:51,238 - DEBUG - Importing DdsImagePlugin
+2024-05-29 21:07:51,238 - DEBUG - Importing EpsImagePlugin
+2024-05-29 21:07:51,253 - DEBUG - Importing FitsImagePlugin
+2024-05-29 21:07:51,255 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 21:07:51,256 - DEBUG - Importing FliImagePlugin
+2024-05-29 21:07:51,257 - DEBUG - Importing FpxImagePlugin
+2024-05-29 21:07:51,258 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 21:07:51,258 - DEBUG - Importing FtexImagePlugin
+2024-05-29 21:07:51,259 - DEBUG - Importing GbrImagePlugin
+2024-05-29 21:07:51,260 - DEBUG - Importing GifImagePlugin
+2024-05-29 21:07:51,260 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 21:07:51,261 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 21:07:51,262 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 21:07:51,265 - DEBUG - Importing IcoImagePlugin
+2024-05-29 21:07:51,266 - DEBUG - Importing ImImagePlugin
+2024-05-29 21:07:51,267 - DEBUG - Importing ImtImagePlugin
+2024-05-29 21:07:51,268 - DEBUG - Importing IptcImagePlugin
+2024-05-29 21:07:51,269 - DEBUG - Importing JpegImagePlugin
+2024-05-29 21:07:51,269 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 21:07:51,269 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 21:07:51,270 - DEBUG - Importing MicImagePlugin
+2024-05-29 21:07:51,271 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 21:07:51,271 - DEBUG - Importing MpegImagePlugin
+2024-05-29 21:07:51,272 - DEBUG - Importing MpoImagePlugin
+2024-05-29 21:07:51,272 - DEBUG - Importing MspImagePlugin
+2024-05-29 21:07:51,273 - DEBUG - Importing PalmImagePlugin
+2024-05-29 21:07:51,274 - DEBUG - Importing PcdImagePlugin
+2024-05-29 21:07:51,275 - DEBUG - Importing PcxImagePlugin
+2024-05-29 21:07:51,275 - DEBUG - Importing PdfImagePlugin
+2024-05-29 21:07:51,281 - DEBUG - Importing PixarImagePlugin
+2024-05-29 21:07:51,282 - DEBUG - Importing PngImagePlugin
+2024-05-29 21:07:51,282 - DEBUG - Importing PpmImagePlugin
+2024-05-29 21:07:51,282 - DEBUG - Importing PsdImagePlugin
+2024-05-29 21:07:51,283 - DEBUG - Importing SgiImagePlugin
+2024-05-29 21:07:51,284 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 21:07:51,285 - DEBUG - Importing SunImagePlugin
+2024-05-29 21:07:51,286 - DEBUG - Importing TgaImagePlugin
+2024-05-29 21:07:51,287 - DEBUG - Importing TiffImagePlugin
+2024-05-29 21:07:51,287 - DEBUG - Importing WebPImagePlugin
+2024-05-29 21:07:51,288 - DEBUG - Importing WmfImagePlugin
+2024-05-29 21:07:51,290 - DEBUG - Importing XbmImagePlugin
+2024-05-29 21:07:51,290 - DEBUG - Importing XpmImagePlugin
+2024-05-29 21:07:51,292 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 21:07:51,435 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:07:51,437 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:07:52,098 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 21:07:52,133 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:07:52,133 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:07:52,649 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 21:07:52,680 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:07:52,680 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:07:53,053 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 21:07:53,079 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:07:53,079 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:07:53,520 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\a (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_a (1).webp
+2024-05-29 21:07:53,545 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:07:53,545 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:07:53,897 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\a (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_a (2).webp
+2024-05-29 21:08:38,051 - DEBUG - Using proactor: IocpProactor
+2024-05-29 21:08:39,522 - DEBUG - Prompting for watermark with default C:\Users\bdex0\Downloads\image_transparent.png
+2024-05-29 21:08:41,159 - DEBUG - Prompting for additional_params with default False
+2024-05-29 21:08:43,688 - DEBUG - Action: apply_watermark
+2024-05-29 21:08:43,688 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 21:08:43,689 - DEBUG - Parameters: {'watermark': 'C:\\Users\\bdex0\\Downloads\\image_transparent.png', 'additional_params': False}
+2024-05-29 21:08:43,725 - ERROR - Error applying watermark to C:\Users\bdex0\Downloads\test\1.pdf: name 'apply_pdf_watermark' is not defined, Metadata: {"size": 553708, "modified_time": 1689770790.794164, "created_time": 1717004286.0410666}
+2024-05-29 21:08:43,725 - ERROR - Error applying watermark to C:\Users\bdex0\Downloads\test\2.pdf: name 'apply_pdf_watermark' is not defined, Metadata: {"size": 105412, "modified_time": 1680810449.6749015, "created_time": 1717004286.031151}
+2024-05-29 21:08:43,743 - DEBUG - Importing BlpImagePlugin
+2024-05-29 21:08:43,745 - DEBUG - Importing BmpImagePlugin
+2024-05-29 21:08:43,745 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 21:08:43,746 - DEBUG - Importing CurImagePlugin
+2024-05-29 21:08:43,746 - DEBUG - Importing DcxImagePlugin
+2024-05-29 21:08:43,748 - DEBUG - Importing DdsImagePlugin
+2024-05-29 21:08:43,749 - DEBUG - Importing EpsImagePlugin
+2024-05-29 21:08:43,765 - DEBUG - Importing FitsImagePlugin
+2024-05-29 21:08:43,767 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 21:08:43,768 - DEBUG - Importing FliImagePlugin
+2024-05-29 21:08:43,770 - DEBUG - Importing FpxImagePlugin
+2024-05-29 21:08:43,772 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 21:08:43,772 - DEBUG - Importing FtexImagePlugin
+2024-05-29 21:08:43,773 - DEBUG - Importing GbrImagePlugin
+2024-05-29 21:08:43,774 - DEBUG - Importing GifImagePlugin
+2024-05-29 21:08:43,774 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 21:08:43,775 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 21:08:43,776 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 21:08:43,778 - DEBUG - Importing IcoImagePlugin
+2024-05-29 21:08:43,779 - DEBUG - Importing ImImagePlugin
+2024-05-29 21:08:43,780 - DEBUG - Importing ImtImagePlugin
+2024-05-29 21:08:43,781 - DEBUG - Importing IptcImagePlugin
+2024-05-29 21:08:43,782 - DEBUG - Importing JpegImagePlugin
+2024-05-29 21:08:43,782 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 21:08:43,782 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 21:08:43,783 - DEBUG - Importing MicImagePlugin
+2024-05-29 21:08:43,784 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 21:08:43,784 - DEBUG - Importing MpegImagePlugin
+2024-05-29 21:08:43,785 - DEBUG - Importing MpoImagePlugin
+2024-05-29 21:08:43,786 - DEBUG - Importing MspImagePlugin
+2024-05-29 21:08:43,787 - DEBUG - Importing PalmImagePlugin
+2024-05-29 21:08:43,788 - DEBUG - Importing PcdImagePlugin
+2024-05-29 21:08:43,789 - DEBUG - Importing PcxImagePlugin
+2024-05-29 21:08:43,789 - DEBUG - Importing PdfImagePlugin
+2024-05-29 21:08:43,795 - DEBUG - Importing PixarImagePlugin
+2024-05-29 21:08:43,796 - DEBUG - Importing PngImagePlugin
+2024-05-29 21:08:43,796 - DEBUG - Importing PpmImagePlugin
+2024-05-29 21:08:43,796 - DEBUG - Importing PsdImagePlugin
+2024-05-29 21:08:43,796 - DEBUG - Importing SgiImagePlugin
+2024-05-29 21:08:43,797 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 21:08:43,798 - DEBUG - Importing SunImagePlugin
+2024-05-29 21:08:43,799 - DEBUG - Importing TgaImagePlugin
+2024-05-29 21:08:43,800 - DEBUG - Importing TiffImagePlugin
+2024-05-29 21:08:43,800 - DEBUG - Importing WebPImagePlugin
+2024-05-29 21:08:43,801 - DEBUG - Importing WmfImagePlugin
+2024-05-29 21:08:43,803 - DEBUG - Importing XbmImagePlugin
+2024-05-29 21:08:43,804 - DEBUG - Importing XpmImagePlugin
+2024-05-29 21:08:43,804 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 21:08:43,839 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:43,839 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:44,307 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 21:08:44,345 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:44,345 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:44,746 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 21:08:44,777 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:44,777 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:44,976 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 21:08:44,982 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:44,982 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:45,014 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:45,015 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:45,553 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_a.png
+2024-05-29 21:08:45,560 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:45,560 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:45,588 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:45,589 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:46,006 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_b.png
+2024-05-29 21:08:46,051 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:46,051 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:46,272 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_c.webp
+2024-05-29 21:08:46,291 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:46,292 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:46,445 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\a (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_a (1).webp
+2024-05-29 21:08:46,468 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:46,469 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:46,654 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\a (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_a (2).webp
+2024-05-29 21:08:46,670 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:46,670 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:46,834 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_a (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_a (1).webp
+2024-05-29 21:08:46,867 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:08:46,867 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:08:47,061 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_a (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_a (2).webp
+2024-05-29 21:09:11,321 - DEBUG - Using proactor: IocpProactor
+2024-05-29 21:09:12,794 - DEBUG - Prompting for watermark with default C:\Users\bdex0\Downloads\image_transparent.png
+2024-05-29 21:09:44,907 - DEBUG - Prompting for additional_params with default False
+2024-05-29 21:09:46,400 - DEBUG - Prompting for text with default 
+2024-05-29 21:09:50,706 - DEBUG - Prompting for include_date with default False
+2024-05-29 21:09:54,887 - DEBUG - Prompting for image_position with default bottom_center
+2024-05-29 21:09:57,446 - DEBUG - Prompting for size with default 40
+2024-05-29 21:09:58,201 - DEBUG - Prompting for transparency with default 100
+2024-05-29 21:10:09,131 - DEBUG - Prompting for soft_edge with default True
+2024-05-29 21:10:12,308 - DEBUG - Action: apply_watermark
+2024-05-29 21:10:12,308 - DEBUG - Directory: C:\Users\bdex0\Downloads\test
+2024-05-29 21:10:12,308 - DEBUG - Parameters: {'watermark': 'C:\\Users\\bdex0\\Downloads\\image_transparent.png', 'additional_params': True, 'text': '', 'include_date': True, 'image_position': 'middle_center', 'size': '40', 'transparency': '225', 'soft_edge': True}
+2024-05-29 21:10:12,339 - ERROR - Error applying watermark to C:\Users\bdex0\Downloads\test\1.pdf: name 'apply_pdf_watermark' is not defined, Metadata: {"size": 553708, "modified_time": 1689770790.794164, "created_time": 1717004286.0410666}
+2024-05-29 21:10:12,339 - ERROR - Error applying watermark to C:\Users\bdex0\Downloads\test\2.pdf: name 'apply_pdf_watermark' is not defined, Metadata: {"size": 105412, "modified_time": 1680810449.6749015, "created_time": 1717004286.031151}
+2024-05-29 21:10:12,357 - DEBUG - Importing BlpImagePlugin
+2024-05-29 21:10:12,360 - DEBUG - Importing BmpImagePlugin
+2024-05-29 21:10:12,360 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 21:10:12,361 - DEBUG - Importing CurImagePlugin
+2024-05-29 21:10:12,362 - DEBUG - Importing DcxImagePlugin
+2024-05-29 21:10:12,363 - DEBUG - Importing DdsImagePlugin
+2024-05-29 21:10:12,364 - DEBUG - Importing EpsImagePlugin
+2024-05-29 21:10:12,376 - DEBUG - Importing FitsImagePlugin
+2024-05-29 21:10:12,377 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 21:10:12,378 - DEBUG - Importing FliImagePlugin
+2024-05-29 21:10:12,378 - DEBUG - Importing FpxImagePlugin
+2024-05-29 21:10:12,380 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 21:10:12,380 - DEBUG - Importing FtexImagePlugin
+2024-05-29 21:10:12,381 - DEBUG - Importing GbrImagePlugin
+2024-05-29 21:10:12,382 - DEBUG - Importing GifImagePlugin
+2024-05-29 21:10:12,382 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 21:10:12,382 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 21:10:12,383 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 21:10:12,385 - DEBUG - Importing IcoImagePlugin
+2024-05-29 21:10:12,386 - DEBUG - Importing ImImagePlugin
+2024-05-29 21:10:12,387 - DEBUG - Importing ImtImagePlugin
+2024-05-29 21:10:12,388 - DEBUG - Importing IptcImagePlugin
+2024-05-29 21:10:12,389 - DEBUG - Importing JpegImagePlugin
+2024-05-29 21:10:12,389 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 21:10:12,389 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 21:10:12,390 - DEBUG - Importing MicImagePlugin
+2024-05-29 21:10:12,391 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 21:10:12,391 - DEBUG - Importing MpegImagePlugin
+2024-05-29 21:10:12,392 - DEBUG - Importing MpoImagePlugin
+2024-05-29 21:10:12,393 - DEBUG - Importing MspImagePlugin
+2024-05-29 21:10:12,394 - DEBUG - Importing PalmImagePlugin
+2024-05-29 21:10:12,395 - DEBUG - Importing PcdImagePlugin
+2024-05-29 21:10:12,396 - DEBUG - Importing PcxImagePlugin
+2024-05-29 21:10:12,396 - DEBUG - Importing PdfImagePlugin
+2024-05-29 21:10:12,402 - DEBUG - Importing PixarImagePlugin
+2024-05-29 21:10:12,403 - DEBUG - Importing PngImagePlugin
+2024-05-29 21:10:12,403 - DEBUG - Importing PpmImagePlugin
+2024-05-29 21:10:12,403 - DEBUG - Importing PsdImagePlugin
+2024-05-29 21:10:12,404 - DEBUG - Importing SgiImagePlugin
+2024-05-29 21:10:12,404 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 21:10:12,405 - DEBUG - Importing SunImagePlugin
+2024-05-29 21:10:12,406 - DEBUG - Importing TgaImagePlugin
+2024-05-29 21:10:12,407 - DEBUG - Importing TiffImagePlugin
+2024-05-29 21:10:12,407 - DEBUG - Importing WebPImagePlugin
+2024-05-29 21:10:12,408 - DEBUG - Importing WmfImagePlugin
+2024-05-29 21:10:12,409 - DEBUG - Importing XbmImagePlugin
+2024-05-29 21:10:12,410 - DEBUG - Importing XpmImagePlugin
+2024-05-29 21:10:12,411 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 21:10:12,446 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:10:12,446 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:10:13,125 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 21:10:13,165 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:10:13,165 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:10:13,857 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 21:10:13,892 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:10:13,892 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:10:14,337 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 21:10:14,361 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:10:14,361 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:10:14,702 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\a (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_a (1).webp
+2024-05-29 21:10:14,730 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 21:10:14,731 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 21:10:15,225 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\a (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_a (2).webp
