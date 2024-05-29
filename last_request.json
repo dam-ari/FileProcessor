@@ -1,1 +1,1 @@
-{"action": "apply_watermark", "directory": "C:\\Users\\bdex0\\Downloads\\test", "params": {"watermark": "C:\\Users\\bdex0\\Downloads\\x.png", "text": "\ud83e\udd84\u2728TEST", "include_date": true, "image_position": "top_center", "text_position": "bottom_center", "size": 40, "transparency": 128, "soft_edge": false, "font_size": 20}}
+{"action": "merge_files", "directory": "C:\\Users\\bdex0\\Downloads\\test", "params": {"include_subdirectories": false, "rows": 2, "fill_method": "leave"}}

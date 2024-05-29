@@ -17,9 +17,9 @@ def apply_watermark_to_files(directory, watermark, text=None, include_date=False
 def apply_watermark(files, watermark, text=None, include_date=False, image_position="bottom_center", text_position="bottom_center", size=10, transparency=128, soft_edge=True, font_size=20, font=""):
     success = True
     partial_success = False
-    logging.debug(f"Applying watermark: {watermark}, text: {text}, date: {include_date}, image position: {image_position}, text position: {text_position}, size: {size}%, transparency: {transparency}, soft edge: {soft_edge}, font size: {font_size}, font: {font}")
+    //logging.debug(f"Applying watermark: {watermark}, text: {text}, date: {include_date}, image position: {image_position}, text position: {text_position}, size: {size}%, transparency: {transparency}, soft edge: {soft_edge}, font size: {font_size}, font: {font}")
     for file in files:
-        logging.debug(f"Processing file: {file}")
+        //logging.debug(f"Processing file: {file}")
         try:
             if file.endswith('.pdf'):
                 apply_pdf_watermark(file, watermark, text, include_date, image_position, text_position, size, font_size, font)
@@ -57,7 +57,7 @@ def apply_pdf_watermark(input_pdf, watermark, text, include_date, image_position
 def apply_image_watermark(input_image, watermark, text, include_date, image_position, text_position, size, transparency, soft_edge, font_size, font):
     output_image = os.path.join(os.path.dirname(input_image), f"watermarked_{os.path.basename(input_image)}")
     try:
-        logging.debug(f"Opening base image: {input_image}")
+        //logging.debug(f"Opening base image: {input_image}")
         base_image = Image.open(input_image).convert("RGBA")
 
         # Create a transparent layer the size of the base image
@@ -65,7 +65,7 @@ def apply_image_watermark(input_image, watermark, text, include_date, image_posi
 
         if watermark:
             watermark = watermark.strip()  # Trim any leading or trailing spaces
-            logging.debug(f"Opening watermark image: {watermark}")
+            //logging.debug(f"Opening watermark image: {watermark}")
             watermark_image = Image.open(watermark).convert("RGBA")
 
             # Scale the watermark to fit the base image if necessary
@@ -83,7 +83,7 @@ def apply_image_watermark(input_image, watermark, text, include_date, image_posi
             txt.paste(watermark_image, watermark_position, watermark_image)
 
         if text or include_date:
-            logging.debug(f"Adding text watermark: {text}")
+            //logging.debug(f"Adding text watermark: {text}")
             draw = ImageDraw.Draw(txt)
             if font:
                 font = ImageFont.truetype(font, font_size)
