@@ -1,559 +1,483 @@
-2024-05-29 01:29:41,671 - DEBUG - Using proactor: IocpProactor
-2024-05-29 01:30:25,626 - DEBUG - Scanning directory: C:\Users\bdex0\Downloads\test
-2024-05-29 01:30:25,628 - DEBUG - Files to process: ['C:\\Users\\bdex0\\Downloads\\test\\a.png', 'C:\\Users\\bdex0\\Downloads\\test\\b.png', 'C:\\Users\\bdex0\\Downloads\\test\\c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (2).webp']
-2024-05-29 01:30:25,628 - DEBUG - Applying watermark: C:\Users\bdex0\Downloads\a.webp, text: None, date: True, position: middle_center, size: 20%, transparency: 128
-2024-05-29 01:30:25,628 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\a.png
-2024-05-29 01:30:25,629 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\a.png
-2024-05-29 01:30:25,660 - DEBUG - Importing BlpImagePlugin
-2024-05-29 01:30:25,662 - DEBUG - Importing BmpImagePlugin
-2024-05-29 01:30:25,662 - DEBUG - Importing BufrStubImagePlugin
-2024-05-29 01:30:25,663 - DEBUG - Importing CurImagePlugin
-2024-05-29 01:30:25,665 - DEBUG - Importing DcxImagePlugin
-2024-05-29 01:30:25,668 - DEBUG - Importing DdsImagePlugin
-2024-05-29 01:30:25,670 - DEBUG - Importing EpsImagePlugin
-2024-05-29 01:30:25,691 - DEBUG - Importing FitsImagePlugin
-2024-05-29 01:30:25,692 - DEBUG - Importing FitsStubImagePlugin
-2024-05-29 01:30:25,694 - DEBUG - Importing FliImagePlugin
-2024-05-29 01:30:25,696 - DEBUG - Importing FpxImagePlugin
-2024-05-29 01:30:25,698 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
-2024-05-29 01:30:25,698 - DEBUG - Importing FtexImagePlugin
-2024-05-29 01:30:25,700 - DEBUG - Importing GbrImagePlugin
-2024-05-29 01:30:25,702 - DEBUG - Importing GifImagePlugin
-2024-05-29 01:30:25,702 - DEBUG - Importing GribStubImagePlugin
-2024-05-29 01:30:25,703 - DEBUG - Importing Hdf5StubImagePlugin
-2024-05-29 01:30:25,705 - DEBUG - Importing IcnsImagePlugin
-2024-05-29 01:30:25,710 - DEBUG - Importing IcoImagePlugin
-2024-05-29 01:30:25,712 - DEBUG - Importing ImImagePlugin
-2024-05-29 01:30:25,714 - DEBUG - Importing ImtImagePlugin
-2024-05-29 01:30:25,715 - DEBUG - Importing IptcImagePlugin
-2024-05-29 01:30:25,716 - DEBUG - Importing JpegImagePlugin
-2024-05-29 01:30:25,717 - DEBUG - Importing Jpeg2KImagePlugin
-2024-05-29 01:30:25,717 - DEBUG - Importing McIdasImagePlugin
-2024-05-29 01:30:25,718 - DEBUG - Importing MicImagePlugin
-2024-05-29 01:30:25,720 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
-2024-05-29 01:30:25,720 - DEBUG - Importing MpegImagePlugin
-2024-05-29 01:30:25,721 - DEBUG - Importing MpoImagePlugin
-2024-05-29 01:30:25,723 - DEBUG - Importing MspImagePlugin
-2024-05-29 01:30:25,725 - DEBUG - Importing PalmImagePlugin
-2024-05-29 01:30:25,730 - DEBUG - Importing PcdImagePlugin
-2024-05-29 01:30:25,731 - DEBUG - Importing PcxImagePlugin
-2024-05-29 01:30:25,731 - DEBUG - Importing PdfImagePlugin
-2024-05-29 01:30:25,742 - DEBUG - Importing PixarImagePlugin
-2024-05-29 01:30:25,743 - DEBUG - Importing PngImagePlugin
-2024-05-29 01:30:25,743 - DEBUG - Importing PpmImagePlugin
-2024-05-29 01:30:25,743 - DEBUG - Importing PsdImagePlugin
-2024-05-29 01:30:25,745 - DEBUG - Importing SgiImagePlugin
-2024-05-29 01:30:25,746 - DEBUG - Importing SpiderImagePlugin
-2024-05-29 01:30:25,747 - DEBUG - Importing SunImagePlugin
-2024-05-29 01:30:25,748 - DEBUG - Importing TgaImagePlugin
-2024-05-29 01:30:25,749 - DEBUG - Importing TiffImagePlugin
-2024-05-29 01:30:25,749 - DEBUG - Importing WebPImagePlugin
-2024-05-29 01:30:25,753 - DEBUG - Importing WmfImagePlugin
-2024-05-29 01:30:25,755 - DEBUG - Importing XbmImagePlugin
-2024-05-29 01:30:25,756 - DEBUG - Importing XpmImagePlugin
-2024-05-29 01:30:25,757 - DEBUG - Importing XVThumbImagePlugin
-2024-05-29 01:30:25,797 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\a.webp
-2024-05-29 01:30:25,827 - DEBUG - Adding text watermark: None
-2024-05-29 01:30:25,827 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:30:25,829 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:30:26,318 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
-2024-05-29 01:30:26,319 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\b.png
-2024-05-29 01:30:26,319 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\b.png
-2024-05-29 01:30:26,367 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\a.webp
-2024-05-29 01:30:26,389 - DEBUG - Adding text watermark: None
-2024-05-29 01:30:26,389 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:30:26,389 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:30:26,765 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
-2024-05-29 01:30:26,766 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\c.webp
-2024-05-29 01:30:26,766 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\c.webp
-2024-05-29 01:30:26,805 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\a.webp
-2024-05-29 01:30:26,829 - DEBUG - Adding text watermark: None
-2024-05-29 01:30:26,829 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:30:26,829 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:30:26,980 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
-2024-05-29 01:30:26,981 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (1).webp
-2024-05-29 01:30:26,981 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (1).webp
-2024-05-29 01:30:27,024 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\a.webp
-2024-05-29 01:30:27,048 - DEBUG - Adding text watermark: None
-2024-05-29 01:30:27,048 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:30:27,048 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:30:27,211 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
-2024-05-29 01:30:27,211 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (2).webp
-2024-05-29 01:30:27,211 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (2).webp
-2024-05-29 01:30:27,245 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\a.webp
-2024-05-29 01:30:27,268 - DEBUG - Adding text watermark: None
-2024-05-29 01:30:27,268 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:30:27,268 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:30:27,437 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
-2024-05-29 01:41:47,314 - DEBUG - Using proactor: IocpProactor
-2024-05-29 01:43:41,887 - DEBUG - Scanning directory: C:\Users\bdex0\Downloads\test
-2024-05-29 01:43:41,897 - DEBUG - Files to process: ['C:\\Users\\bdex0\\Downloads\\test\\a.png', 'C:\\Users\\bdex0\\Downloads\\test\\b.png', 'C:\\Users\\bdex0\\Downloads\\test\\c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_a.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_b.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (2).webp']
-2024-05-29 01:44:19,113 - DEBUG - Using proactor: IocpProactor
-2024-05-29 01:45:00,475 - DEBUG - Using proactor: IocpProactor
-2024-05-29 01:45:56,974 - DEBUG - Using proactor: IocpProactor
-2024-05-29 01:46:42,233 - DEBUG - Scanning directory: C:\Users\bdex0\Downloads\test
-2024-05-29 01:46:42,234 - DEBUG - Files to process: ['C:\\Users\\bdex0\\Downloads\\test\\a.png', 'C:\\Users\\bdex0\\Downloads\\test\\b.png', 'C:\\Users\\bdex0\\Downloads\\test\\c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_a.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_b.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (2).webp']
-2024-05-29 01:46:42,234 - DEBUG - Applying watermark: C:\Users\bdex0\Downloads\x.png, text: None, date: False, image position: bottom_center, text position: bottom_center, size: 10%, transparency: 128, soft edge: True
-2024-05-29 01:46:42,235 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\a.png
-2024-05-29 01:46:42,235 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\a.png
-2024-05-29 01:46:42,277 - DEBUG - Importing BlpImagePlugin
-2024-05-29 01:46:42,279 - DEBUG - Importing BmpImagePlugin
-2024-05-29 01:46:42,279 - DEBUG - Importing BufrStubImagePlugin
-2024-05-29 01:46:42,280 - DEBUG - Importing CurImagePlugin
-2024-05-29 01:46:42,281 - DEBUG - Importing DcxImagePlugin
-2024-05-29 01:46:42,284 - DEBUG - Importing DdsImagePlugin
-2024-05-29 01:46:42,285 - DEBUG - Importing EpsImagePlugin
-2024-05-29 01:46:42,296 - DEBUG - Importing FitsImagePlugin
-2024-05-29 01:46:42,298 - DEBUG - Importing FitsStubImagePlugin
-2024-05-29 01:46:42,298 - DEBUG - Importing FliImagePlugin
-2024-05-29 01:46:42,300 - DEBUG - Importing FpxImagePlugin
-2024-05-29 01:46:42,301 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
-2024-05-29 01:46:42,301 - DEBUG - Importing FtexImagePlugin
-2024-05-29 01:46:42,302 - DEBUG - Importing GbrImagePlugin
-2024-05-29 01:46:42,303 - DEBUG - Importing GifImagePlugin
-2024-05-29 01:46:42,303 - DEBUG - Importing GribStubImagePlugin
-2024-05-29 01:46:42,306 - DEBUG - Importing Hdf5StubImagePlugin
-2024-05-29 01:46:42,306 - DEBUG - Importing IcnsImagePlugin
-2024-05-29 01:46:42,310 - DEBUG - Importing IcoImagePlugin
-2024-05-29 01:46:42,311 - DEBUG - Importing ImImagePlugin
-2024-05-29 01:46:42,312 - DEBUG - Importing ImtImagePlugin
-2024-05-29 01:46:42,313 - DEBUG - Importing IptcImagePlugin
-2024-05-29 01:46:42,315 - DEBUG - Importing JpegImagePlugin
-2024-05-29 01:46:42,315 - DEBUG - Importing Jpeg2KImagePlugin
-2024-05-29 01:46:42,315 - DEBUG - Importing McIdasImagePlugin
-2024-05-29 01:46:42,316 - DEBUG - Importing MicImagePlugin
-2024-05-29 01:46:42,317 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
-2024-05-29 01:46:42,317 - DEBUG - Importing MpegImagePlugin
-2024-05-29 01:46:42,318 - DEBUG - Importing MpoImagePlugin
-2024-05-29 01:46:42,318 - DEBUG - Importing MspImagePlugin
-2024-05-29 01:46:42,319 - DEBUG - Importing PalmImagePlugin
-2024-05-29 01:46:42,321 - DEBUG - Importing PcdImagePlugin
-2024-05-29 01:46:42,322 - DEBUG - Importing PcxImagePlugin
-2024-05-29 01:46:42,322 - DEBUG - Importing PdfImagePlugin
-2024-05-29 01:46:42,332 - DEBUG - Importing PixarImagePlugin
-2024-05-29 01:46:42,333 - DEBUG - Importing PngImagePlugin
-2024-05-29 01:46:42,333 - DEBUG - Importing PpmImagePlugin
-2024-05-29 01:46:42,333 - DEBUG - Importing PsdImagePlugin
-2024-05-29 01:46:42,334 - DEBUG - Importing SgiImagePlugin
-2024-05-29 01:46:42,335 - DEBUG - Importing SpiderImagePlugin
-2024-05-29 01:46:42,335 - DEBUG - Importing SunImagePlugin
-2024-05-29 01:46:42,336 - DEBUG - Importing TgaImagePlugin
-2024-05-29 01:46:42,337 - DEBUG - Importing TiffImagePlugin
-2024-05-29 01:46:42,337 - DEBUG - Importing WebPImagePlugin
-2024-05-29 01:46:42,340 - DEBUG - Importing WmfImagePlugin
-2024-05-29 01:46:42,341 - DEBUG - Importing XbmImagePlugin
-2024-05-29 01:46:42,343 - DEBUG - Importing XpmImagePlugin
-2024-05-29 01:46:42,343 - DEBUG - Importing XVThumbImagePlugin
-2024-05-29 01:46:42,390 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:46:42,808 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
-2024-05-29 01:46:42,809 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\b.png
-2024-05-29 01:46:42,809 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\b.png
-2024-05-29 01:46:42,854 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:46:43,237 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
-2024-05-29 01:46:43,237 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\c.webp
-2024-05-29 01:46:43,237 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\c.webp
-2024-05-29 01:46:43,269 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:46:43,456 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
-2024-05-29 01:46:43,457 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_a.png
-2024-05-29 01:46:43,458 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_a.png
-2024-05-29 01:46:43,466 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:46:43,466 - DEBUG - STREAM b'IDAT' 41 65536
-2024-05-29 01:46:43,511 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:46:44,015 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_a.png
-2024-05-29 01:46:44,017 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_b.png
-2024-05-29 01:46:44,017 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_b.png
-2024-05-29 01:46:44,024 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:46:44,024 - DEBUG - STREAM b'IDAT' 41 65536
-2024-05-29 01:46:44,059 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:46:44,461 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_b.png
-2024-05-29 01:46:44,461 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_c.webp
-2024-05-29 01:46:44,461 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_c.webp
-2024-05-29 01:46:44,492 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:46:44,668 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_c.webp
-2024-05-29 01:46:44,669 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (1).webp
-2024-05-29 01:46:44,669 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (1).webp
-2024-05-29 01:46:44,717 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:46:44,913 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
-2024-05-29 01:46:44,914 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (2).webp
-2024-05-29 01:46:44,914 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (2).webp
-2024-05-29 01:46:44,955 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:46:45,116 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
-2024-05-29 01:47:18,310 - DEBUG - Using proactor: IocpProactor
-2024-05-29 01:48:11,344 - DEBUG - Scanning directory: C:\Users\bdex0\Downloads\test
-2024-05-29 01:48:11,345 - DEBUG - Files to process: ['C:\\Users\\bdex0\\Downloads\\test\\a.png', 'C:\\Users\\bdex0\\Downloads\\test\\b.png', 'C:\\Users\\bdex0\\Downloads\\test\\c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (2).webp']
-2024-05-29 01:48:11,345 - DEBUG - Applying watermark: C:\Users\bdex0\Downloads\x.png, text: EMERALD.Bar, date: True, image position: middle_center, text position: bottom_right, size: 30%, transparency: 128, soft edge: True
-2024-05-29 01:48:11,345 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\a.png
-2024-05-29 01:48:11,345 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\a.png
-2024-05-29 01:48:11,363 - DEBUG - Importing BlpImagePlugin
-2024-05-29 01:48:11,364 - DEBUG - Importing BmpImagePlugin
-2024-05-29 01:48:11,364 - DEBUG - Importing BufrStubImagePlugin
-2024-05-29 01:48:11,365 - DEBUG - Importing CurImagePlugin
-2024-05-29 01:48:11,366 - DEBUG - Importing DcxImagePlugin
-2024-05-29 01:48:11,367 - DEBUG - Importing DdsImagePlugin
-2024-05-29 01:48:11,368 - DEBUG - Importing EpsImagePlugin
-2024-05-29 01:48:11,378 - DEBUG - Importing FitsImagePlugin
-2024-05-29 01:48:11,380 - DEBUG - Importing FitsStubImagePlugin
-2024-05-29 01:48:11,381 - DEBUG - Importing FliImagePlugin
-2024-05-29 01:48:11,381 - DEBUG - Importing FpxImagePlugin
-2024-05-29 01:48:11,383 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
-2024-05-29 01:48:11,383 - DEBUG - Importing FtexImagePlugin
-2024-05-29 01:48:11,384 - DEBUG - Importing GbrImagePlugin
-2024-05-29 01:48:11,384 - DEBUG - Importing GifImagePlugin
-2024-05-29 01:48:11,384 - DEBUG - Importing GribStubImagePlugin
-2024-05-29 01:48:11,385 - DEBUG - Importing Hdf5StubImagePlugin
-2024-05-29 01:48:11,386 - DEBUG - Importing IcnsImagePlugin
-2024-05-29 01:48:11,389 - DEBUG - Importing IcoImagePlugin
-2024-05-29 01:48:11,390 - DEBUG - Importing ImImagePlugin
-2024-05-29 01:48:11,391 - DEBUG - Importing ImtImagePlugin
-2024-05-29 01:48:11,392 - DEBUG - Importing IptcImagePlugin
-2024-05-29 01:48:11,393 - DEBUG - Importing JpegImagePlugin
-2024-05-29 01:48:11,393 - DEBUG - Importing Jpeg2KImagePlugin
-2024-05-29 01:48:11,393 - DEBUG - Importing McIdasImagePlugin
-2024-05-29 01:48:11,394 - DEBUG - Importing MicImagePlugin
-2024-05-29 01:48:11,395 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
-2024-05-29 01:48:11,395 - DEBUG - Importing MpegImagePlugin
-2024-05-29 01:48:11,396 - DEBUG - Importing MpoImagePlugin
-2024-05-29 01:48:11,397 - DEBUG - Importing MspImagePlugin
-2024-05-29 01:48:11,398 - DEBUG - Importing PalmImagePlugin
-2024-05-29 01:48:11,399 - DEBUG - Importing PcdImagePlugin
-2024-05-29 01:48:11,400 - DEBUG - Importing PcxImagePlugin
-2024-05-29 01:48:11,400 - DEBUG - Importing PdfImagePlugin
-2024-05-29 01:48:11,406 - DEBUG - Importing PixarImagePlugin
-2024-05-29 01:48:11,407 - DEBUG - Importing PngImagePlugin
-2024-05-29 01:48:11,407 - DEBUG - Importing PpmImagePlugin
-2024-05-29 01:48:11,407 - DEBUG - Importing PsdImagePlugin
-2024-05-29 01:48:11,408 - DEBUG - Importing SgiImagePlugin
-2024-05-29 01:48:11,409 - DEBUG - Importing SpiderImagePlugin
-2024-05-29 01:48:11,410 - DEBUG - Importing SunImagePlugin
-2024-05-29 01:48:11,410 - DEBUG - Importing TgaImagePlugin
-2024-05-29 01:48:11,411 - DEBUG - Importing TiffImagePlugin
-2024-05-29 01:48:11,411 - DEBUG - Importing WebPImagePlugin
-2024-05-29 01:48:11,413 - DEBUG - Importing WmfImagePlugin
-2024-05-29 01:48:11,414 - DEBUG - Importing XbmImagePlugin
-2024-05-29 01:48:11,415 - DEBUG - Importing XpmImagePlugin
-2024-05-29 01:48:11,416 - DEBUG - Importing XVThumbImagePlugin
-2024-05-29 01:48:11,460 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:48:11,579 - DEBUG - Adding text watermark: EMERALD.Bar
-2024-05-29 01:48:11,579 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:48:11,579 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:48:12,053 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
-2024-05-29 01:48:12,054 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\b.png
-2024-05-29 01:48:12,054 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\b.png
-2024-05-29 01:48:12,103 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:48:12,226 - DEBUG - Adding text watermark: EMERALD.Bar
-2024-05-29 01:48:12,226 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:48:12,226 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:48:12,618 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
-2024-05-29 01:48:12,620 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\c.webp
-2024-05-29 01:48:12,620 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\c.webp
-2024-05-29 01:48:12,659 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:48:12,800 - DEBUG - Adding text watermark: EMERALD.Bar
-2024-05-29 01:48:12,801 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:48:12,801 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:48:12,932 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
-2024-05-29 01:48:12,933 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (1).webp
-2024-05-29 01:48:12,933 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (1).webp
-2024-05-29 01:48:12,967 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:48:13,095 - DEBUG - Adding text watermark: EMERALD.Bar
-2024-05-29 01:48:13,095 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:48:13,095 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:48:13,249 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
-2024-05-29 01:48:13,250 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (2).webp
-2024-05-29 01:48:13,250 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (2).webp
-2024-05-29 01:48:13,282 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:48:13,426 - DEBUG - Adding text watermark: EMERALD.Bar
-2024-05-29 01:48:13,427 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:48:13,427 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:48:13,584 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
-2024-05-29 01:48:50,293 - DEBUG - Using proactor: IocpProactor
-2024-05-29 01:51:40,502 - DEBUG - Scanning directory: C:\Users\bdex0\Downloads\test
-2024-05-29 01:51:40,502 - DEBUG - Files to process: ['C:\\Users\\bdex0\\Downloads\\test\\a.png', 'C:\\Users\\bdex0\\Downloads\\test\\b.png', 'C:\\Users\\bdex0\\Downloads\\test\\c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_a.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_b.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (2).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_d (2).webp']
-2024-05-29 01:51:40,503 - DEBUG - Applying watermark: C:\Users\bdex0\Downloads\x.png, text: EM, date: True, image position: middle_center, text position: bottom_left, size: 40%, transparency: 150, soft edge: True
-2024-05-29 01:51:40,503 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\a.png
-2024-05-29 01:51:40,503 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\a.png
-2024-05-29 01:51:40,521 - DEBUG - Importing BlpImagePlugin
-2024-05-29 01:51:40,523 - DEBUG - Importing BmpImagePlugin
-2024-05-29 01:51:40,523 - DEBUG - Importing BufrStubImagePlugin
-2024-05-29 01:51:40,524 - DEBUG - Importing CurImagePlugin
-2024-05-29 01:51:40,525 - DEBUG - Importing DcxImagePlugin
-2024-05-29 01:51:40,526 - DEBUG - Importing DdsImagePlugin
-2024-05-29 01:51:40,527 - DEBUG - Importing EpsImagePlugin
-2024-05-29 01:51:40,543 - DEBUG - Importing FitsImagePlugin
-2024-05-29 01:51:40,544 - DEBUG - Importing FitsStubImagePlugin
-2024-05-29 01:51:40,545 - DEBUG - Importing FliImagePlugin
-2024-05-29 01:51:40,546 - DEBUG - Importing FpxImagePlugin
-2024-05-29 01:51:40,547 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
-2024-05-29 01:51:40,547 - DEBUG - Importing FtexImagePlugin
-2024-05-29 01:51:40,549 - DEBUG - Importing GbrImagePlugin
-2024-05-29 01:51:40,551 - DEBUG - Importing GifImagePlugin
-2024-05-29 01:51:40,551 - DEBUG - Importing GribStubImagePlugin
-2024-05-29 01:51:40,552 - DEBUG - Importing Hdf5StubImagePlugin
-2024-05-29 01:51:40,553 - DEBUG - Importing IcnsImagePlugin
-2024-05-29 01:51:40,556 - DEBUG - Importing IcoImagePlugin
-2024-05-29 01:51:40,557 - DEBUG - Importing ImImagePlugin
-2024-05-29 01:51:40,558 - DEBUG - Importing ImtImagePlugin
-2024-05-29 01:51:40,559 - DEBUG - Importing IptcImagePlugin
-2024-05-29 01:51:40,560 - DEBUG - Importing JpegImagePlugin
-2024-05-29 01:51:40,560 - DEBUG - Importing Jpeg2KImagePlugin
-2024-05-29 01:51:40,560 - DEBUG - Importing McIdasImagePlugin
-2024-05-29 01:51:40,561 - DEBUG - Importing MicImagePlugin
-2024-05-29 01:51:40,563 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
-2024-05-29 01:51:40,563 - DEBUG - Importing MpegImagePlugin
-2024-05-29 01:51:40,563 - DEBUG - Importing MpoImagePlugin
-2024-05-29 01:51:40,564 - DEBUG - Importing MspImagePlugin
-2024-05-29 01:51:40,565 - DEBUG - Importing PalmImagePlugin
-2024-05-29 01:51:40,567 - DEBUG - Importing PcdImagePlugin
-2024-05-29 01:51:40,568 - DEBUG - Importing PcxImagePlugin
-2024-05-29 01:51:40,568 - DEBUG - Importing PdfImagePlugin
-2024-05-29 01:51:40,577 - DEBUG - Importing PixarImagePlugin
-2024-05-29 01:51:40,578 - DEBUG - Importing PngImagePlugin
-2024-05-29 01:51:40,578 - DEBUG - Importing PpmImagePlugin
-2024-05-29 01:51:40,578 - DEBUG - Importing PsdImagePlugin
-2024-05-29 01:51:40,579 - DEBUG - Importing SgiImagePlugin
-2024-05-29 01:51:40,580 - DEBUG - Importing SpiderImagePlugin
-2024-05-29 01:51:40,581 - DEBUG - Importing SunImagePlugin
-2024-05-29 01:51:40,582 - DEBUG - Importing TgaImagePlugin
-2024-05-29 01:51:40,583 - DEBUG - Importing TiffImagePlugin
-2024-05-29 01:51:40,583 - DEBUG - Importing WebPImagePlugin
-2024-05-29 01:51:40,588 - DEBUG - Importing WmfImagePlugin
-2024-05-29 01:51:40,588 - DEBUG - Importing XbmImagePlugin
-2024-05-29 01:51:40,591 - DEBUG - Importing XpmImagePlugin
-2024-05-29 01:51:40,592 - DEBUG - Importing XVThumbImagePlugin
-2024-05-29 01:51:40,637 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:51:40,976 - DEBUG - Adding text watermark: EM
-2024-05-29 01:51:40,977 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:40,977 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:51:41,481 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
-2024-05-29 01:51:41,483 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\b.png
-2024-05-29 01:51:41,483 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\b.png
-2024-05-29 01:51:41,519 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:51:41,738 - DEBUG - Adding text watermark: EM
-2024-05-29 01:51:41,738 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:41,738 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:51:42,152 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
-2024-05-29 01:51:42,154 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\c.webp
-2024-05-29 01:51:42,154 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\c.webp
-2024-05-29 01:51:42,192 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:51:42,413 - DEBUG - Adding text watermark: EM
-2024-05-29 01:51:42,414 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:42,414 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:51:42,552 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
-2024-05-29 01:51:42,553 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_a.png
-2024-05-29 01:51:42,553 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_a.png
-2024-05-29 01:51:42,561 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:42,561 - DEBUG - STREAM b'IDAT' 41 65536
-2024-05-29 01:51:42,595 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:51:42,825 - DEBUG - Adding text watermark: EM
-2024-05-29 01:51:42,825 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:42,826 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:51:43,445 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_a.png
-2024-05-29 01:51:43,446 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_b.png
-2024-05-29 01:51:43,446 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_b.png
-2024-05-29 01:51:43,454 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:43,455 - DEBUG - STREAM b'IDAT' 41 65536
-2024-05-29 01:51:43,489 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:51:43,764 - DEBUG - Adding text watermark: EM
-2024-05-29 01:51:43,764 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:43,764 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:51:44,326 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_b.png
-2024-05-29 01:51:44,327 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_c.webp
-2024-05-29 01:51:44,327 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_c.webp
-2024-05-29 01:51:44,370 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:51:44,608 - DEBUG - Adding text watermark: EM
-2024-05-29 01:51:44,609 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:44,609 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:51:44,740 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_c.webp
-2024-05-29 01:51:44,741 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (1).webp
-2024-05-29 01:51:44,741 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (1).webp
-2024-05-29 01:51:44,778 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:51:45,061 - DEBUG - Adding text watermark: EM
-2024-05-29 01:51:45,062 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:45,062 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:51:45,233 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
-2024-05-29 01:51:45,234 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (2).webp
-2024-05-29 01:51:45,234 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (2).webp
-2024-05-29 01:51:45,266 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:51:45,512 - DEBUG - Adding text watermark: EM
-2024-05-29 01:51:45,512 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:45,512 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:51:45,654 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
-2024-05-29 01:51:45,654 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
-2024-05-29 01:51:45,654 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
-2024-05-29 01:51:45,682 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:51:45,997 - DEBUG - Adding text watermark: EM
-2024-05-29 01:51:45,997 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:45,997 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:51:46,155 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
-2024-05-29 01:51:46,156 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
-2024-05-29 01:51:46,156 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
-2024-05-29 01:51:46,180 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:51:46,438 - DEBUG - Adding text watermark: EM
-2024-05-29 01:51:46,438 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:51:46,438 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:51:46,593 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
-2024-05-29 01:53:45,424 - DEBUG - Using proactor: IocpProactor
-2024-05-29 01:54:42,220 - DEBUG - Scanning directory: C:\Users\bdex0\Downloads\test
-2024-05-29 01:54:42,230 - DEBUG - Files to process: ['C:\\Users\\bdex0\\Downloads\\test\\a.png', 'C:\\Users\\bdex0\\Downloads\\test\\b.png', 'C:\\Users\\bdex0\\Downloads\\test\\c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_a.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_b.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_watermarked_a.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_watermarked_b.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_watermarked_c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (2).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_d (2).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_watermarked_d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_watermarked_d (2).webp']
-2024-05-29 01:54:42,230 - DEBUG - Applying watermark: C:\Users\bdex0\Downloads\x.png, text: EMELER, date: True, image position: middle_center, text position: bottom_right, size: 40%, transparency: 100, soft edge: False
-2024-05-29 01:54:42,230 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\a.png
-2024-05-29 01:54:42,230 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\a.png
-2024-05-29 01:54:42,289 - DEBUG - Importing BlpImagePlugin
-2024-05-29 01:54:42,292 - DEBUG - Importing BmpImagePlugin
-2024-05-29 01:54:42,292 - DEBUG - Importing BufrStubImagePlugin
-2024-05-29 01:54:42,295 - DEBUG - Importing CurImagePlugin
-2024-05-29 01:54:42,296 - DEBUG - Importing DcxImagePlugin
-2024-05-29 01:54:42,300 - DEBUG - Importing DdsImagePlugin
-2024-05-29 01:54:42,302 - DEBUG - Importing EpsImagePlugin
-2024-05-29 01:54:42,317 - DEBUG - Importing FitsImagePlugin
-2024-05-29 01:54:42,318 - DEBUG - Importing FitsStubImagePlugin
-2024-05-29 01:54:42,319 - DEBUG - Importing FliImagePlugin
-2024-05-29 01:54:42,320 - DEBUG - Importing FpxImagePlugin
-2024-05-29 01:54:42,321 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
-2024-05-29 01:54:42,321 - DEBUG - Importing FtexImagePlugin
-2024-05-29 01:54:42,322 - DEBUG - Importing GbrImagePlugin
-2024-05-29 01:54:42,323 - DEBUG - Importing GifImagePlugin
-2024-05-29 01:54:42,323 - DEBUG - Importing GribStubImagePlugin
-2024-05-29 01:54:42,324 - DEBUG - Importing Hdf5StubImagePlugin
-2024-05-29 01:54:42,325 - DEBUG - Importing IcnsImagePlugin
-2024-05-29 01:54:42,329 - DEBUG - Importing IcoImagePlugin
-2024-05-29 01:54:42,330 - DEBUG - Importing ImImagePlugin
-2024-05-29 01:54:42,331 - DEBUG - Importing ImtImagePlugin
-2024-05-29 01:54:42,332 - DEBUG - Importing IptcImagePlugin
-2024-05-29 01:54:42,333 - DEBUG - Importing JpegImagePlugin
-2024-05-29 01:54:42,333 - DEBUG - Importing Jpeg2KImagePlugin
-2024-05-29 01:54:42,333 - DEBUG - Importing McIdasImagePlugin
-2024-05-29 01:54:42,333 - DEBUG - Importing MicImagePlugin
-2024-05-29 01:54:42,334 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
-2024-05-29 01:54:42,334 - DEBUG - Importing MpegImagePlugin
-2024-05-29 01:54:42,336 - DEBUG - Importing MpoImagePlugin
-2024-05-29 01:54:42,336 - DEBUG - Importing MspImagePlugin
-2024-05-29 01:54:42,336 - DEBUG - Importing PalmImagePlugin
-2024-05-29 01:54:42,340 - DEBUG - Importing PcdImagePlugin
-2024-05-29 01:54:42,340 - DEBUG - Importing PcxImagePlugin
-2024-05-29 01:54:42,340 - DEBUG - Importing PdfImagePlugin
-2024-05-29 01:54:42,348 - DEBUG - Importing PixarImagePlugin
-2024-05-29 01:54:42,349 - DEBUG - Importing PngImagePlugin
-2024-05-29 01:54:42,349 - DEBUG - Importing PpmImagePlugin
-2024-05-29 01:54:42,349 - DEBUG - Importing PsdImagePlugin
-2024-05-29 01:54:42,350 - DEBUG - Importing SgiImagePlugin
-2024-05-29 01:54:42,351 - DEBUG - Importing SpiderImagePlugin
-2024-05-29 01:54:42,351 - DEBUG - Importing SunImagePlugin
-2024-05-29 01:54:42,353 - DEBUG - Importing TgaImagePlugin
-2024-05-29 01:54:42,353 - DEBUG - Importing TiffImagePlugin
-2024-05-29 01:54:42,353 - DEBUG - Importing WebPImagePlugin
-2024-05-29 01:54:42,356 - DEBUG - Importing WmfImagePlugin
-2024-05-29 01:54:42,356 - DEBUG - Importing XbmImagePlugin
-2024-05-29 01:54:42,358 - DEBUG - Importing XpmImagePlugin
-2024-05-29 01:54:42,358 - DEBUG - Importing XVThumbImagePlugin
-2024-05-29 01:54:42,412 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:42,448 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:42,448 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:42,449 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:42,871 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
-2024-05-29 01:54:42,872 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\b.png
-2024-05-29 01:54:42,872 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\b.png
-2024-05-29 01:54:42,921 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:42,950 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:42,950 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:42,950 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:43,316 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
-2024-05-29 01:54:43,317 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\c.webp
-2024-05-29 01:54:43,318 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\c.webp
-2024-05-29 01:54:43,349 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:43,375 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:43,375 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:43,375 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:43,515 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
-2024-05-29 01:54:43,516 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_a.png
-2024-05-29 01:54:43,516 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_a.png
-2024-05-29 01:54:43,526 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:43,527 - DEBUG - STREAM b'IDAT' 41 65536
-2024-05-29 01:54:43,566 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:43,596 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:43,596 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:43,597 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:44,059 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_a.png
-2024-05-29 01:54:44,060 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_b.png
-2024-05-29 01:54:44,060 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_b.png
-2024-05-29 01:54:44,068 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:44,068 - DEBUG - STREAM b'IDAT' 41 65536
-2024-05-29 01:54:44,108 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:44,144 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:44,144 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:44,144 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:44,526 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_b.png
-2024-05-29 01:54:44,527 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_c.webp
-2024-05-29 01:54:44,527 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_c.webp
-2024-05-29 01:54:44,565 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:44,619 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:44,619 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:44,620 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:44,784 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_c.webp
-2024-05-29 01:54:44,785 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_watermarked_a.png
-2024-05-29 01:54:44,785 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_watermarked_a.png
-2024-05-29 01:54:44,790 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:44,790 - DEBUG - STREAM b'IDAT' 41 65536
-2024-05-29 01:54:44,824 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:44,852 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:44,852 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:44,852 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:45,381 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_watermarked_a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_watermarked_a.png
-2024-05-29 01:54:45,382 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_watermarked_b.png
-2024-05-29 01:54:45,383 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_watermarked_b.png
-2024-05-29 01:54:45,401 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:45,401 - DEBUG - STREAM b'IDAT' 41 65536
-2024-05-29 01:54:45,431 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:45,460 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:45,460 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:45,460 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:45,847 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_watermarked_b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_watermarked_b.png
-2024-05-29 01:54:45,849 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_watermarked_c.webp
-2024-05-29 01:54:45,849 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_watermarked_c.webp
-2024-05-29 01:54:45,878 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:45,913 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:45,913 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:45,914 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:46,049 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_watermarked_c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_watermarked_c.webp
-2024-05-29 01:54:46,049 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (1).webp
-2024-05-29 01:54:46,049 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (1).webp
-2024-05-29 01:54:46,085 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:46,111 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:46,111 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:46,111 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:46,288 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
-2024-05-29 01:54:46,289 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (2).webp
-2024-05-29 01:54:46,289 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (2).webp
-2024-05-29 01:54:46,321 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:46,348 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:46,348 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:46,348 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:46,501 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
-2024-05-29 01:54:46,502 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
-2024-05-29 01:54:46,502 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
-2024-05-29 01:54:46,704 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:46,733 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:46,733 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:46,733 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:46,925 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
-2024-05-29 01:54:46,926 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
-2024-05-29 01:54:46,926 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
-2024-05-29 01:54:46,956 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:46,999 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:46,999 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:46,999 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:47,159 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
-2024-05-29 01:54:47,161 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
-2024-05-29 01:54:47,161 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
-2024-05-29 01:54:47,196 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:47,225 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:47,225 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:47,225 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:47,381 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (1).webp
-2024-05-29 01:54:47,381 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
-2024-05-29 01:54:47,381 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
-2024-05-29 01:54:47,425 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
-2024-05-29 01:54:47,455 - DEBUG - Adding text watermark: EMELER
-2024-05-29 01:54:47,455 - DEBUG - STREAM b'IHDR' 16 13
-2024-05-29 01:54:47,455 - DEBUG - STREAM b'IDAT' 41 1216
-2024-05-29 01:54:47,592 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (2).webp
-2024-05-29 01:58:23,058 - DEBUG - Using proactor: IocpProactor
+2024-05-29 02:42:42,960 - DEBUG - Using proactor: IocpProactor
+2024-05-29 02:43:01,434 - DEBUG - Scanning directory: C:\Users\bdex0\Downloads\test
+2024-05-29 02:43:01,435 - DEBUG - Files to process: ['C:\\Users\\bdex0\\Downloads\\test\\a.png', 'C:\\Users\\bdex0\\Downloads\\test\\b.png', 'C:\\Users\\bdex0\\Downloads\\test\\c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (2).webp']
+2024-05-29 02:43:01,435 - DEBUG - Applying watermark: C:\Users\bdex0\Downloads\x.png, text: ema, date: True, image position: middle_center, text position: middle_center, size: 10%, transparency: 128, soft edge: True, font size: 20, font: 
+2024-05-29 02:43:01,435 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\a.png
+2024-05-29 02:43:01,435 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\a.png
+2024-05-29 02:43:01,453 - DEBUG - Importing BlpImagePlugin
+2024-05-29 02:43:01,455 - DEBUG - Importing BmpImagePlugin
+2024-05-29 02:43:01,455 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 02:43:01,457 - DEBUG - Importing CurImagePlugin
+2024-05-29 02:43:01,459 - DEBUG - Importing DcxImagePlugin
+2024-05-29 02:43:01,462 - DEBUG - Importing DdsImagePlugin
+2024-05-29 02:43:01,463 - DEBUG - Importing EpsImagePlugin
+2024-05-29 02:43:01,480 - DEBUG - Importing FitsImagePlugin
+2024-05-29 02:43:01,481 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 02:43:01,482 - DEBUG - Importing FliImagePlugin
+2024-05-29 02:43:01,483 - DEBUG - Importing FpxImagePlugin
+2024-05-29 02:43:01,485 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 02:43:01,485 - DEBUG - Importing FtexImagePlugin
+2024-05-29 02:43:01,486 - DEBUG - Importing GbrImagePlugin
+2024-05-29 02:43:01,487 - DEBUG - Importing GifImagePlugin
+2024-05-29 02:43:01,487 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 02:43:01,488 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 02:43:01,489 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 02:43:01,491 - DEBUG - Importing IcoImagePlugin
+2024-05-29 02:43:01,493 - DEBUG - Importing ImImagePlugin
+2024-05-29 02:43:01,494 - DEBUG - Importing ImtImagePlugin
+2024-05-29 02:43:01,496 - DEBUG - Importing IptcImagePlugin
+2024-05-29 02:43:01,496 - DEBUG - Importing JpegImagePlugin
+2024-05-29 02:43:01,497 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 02:43:01,497 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 02:43:01,498 - DEBUG - Importing MicImagePlugin
+2024-05-29 02:43:01,499 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 02:43:01,499 - DEBUG - Importing MpegImagePlugin
+2024-05-29 02:43:01,501 - DEBUG - Importing MpoImagePlugin
+2024-05-29 02:43:01,501 - DEBUG - Importing MspImagePlugin
+2024-05-29 02:43:01,502 - DEBUG - Importing PalmImagePlugin
+2024-05-29 02:43:01,503 - DEBUG - Importing PcdImagePlugin
+2024-05-29 02:43:01,505 - DEBUG - Importing PcxImagePlugin
+2024-05-29 02:43:01,505 - DEBUG - Importing PdfImagePlugin
+2024-05-29 02:43:01,511 - DEBUG - Importing PixarImagePlugin
+2024-05-29 02:43:01,512 - DEBUG - Importing PngImagePlugin
+2024-05-29 02:43:01,512 - DEBUG - Importing PpmImagePlugin
+2024-05-29 02:43:01,512 - DEBUG - Importing PsdImagePlugin
+2024-05-29 02:43:01,513 - DEBUG - Importing SgiImagePlugin
+2024-05-29 02:43:01,514 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 02:43:01,515 - DEBUG - Importing SunImagePlugin
+2024-05-29 02:43:01,516 - DEBUG - Importing TgaImagePlugin
+2024-05-29 02:43:01,517 - DEBUG - Importing TiffImagePlugin
+2024-05-29 02:43:01,517 - DEBUG - Importing WebPImagePlugin
+2024-05-29 02:43:01,518 - DEBUG - Importing WmfImagePlugin
+2024-05-29 02:43:01,520 - DEBUG - Importing XbmImagePlugin
+2024-05-29 02:43:01,521 - DEBUG - Importing XpmImagePlugin
+2024-05-29 02:43:01,522 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 02:43:01,562 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:43:01,603 - DEBUG - Adding text watermark: ema
+2024-05-29 02:43:02,066 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 02:43:02,067 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\b.png
+2024-05-29 02:43:02,067 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\b.png
+2024-05-29 02:43:02,100 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:43:02,133 - DEBUG - Adding text watermark: ema
+2024-05-29 02:43:02,517 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 02:43:02,518 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\c.webp
+2024-05-29 02:43:02,518 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\c.webp
+2024-05-29 02:43:02,549 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:43:02,588 - DEBUG - Adding text watermark: ema
+2024-05-29 02:43:02,730 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 02:43:02,731 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (1).webp
+2024-05-29 02:43:02,731 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (1).webp
+2024-05-29 02:43:02,767 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:43:02,800 - DEBUG - Adding text watermark: ema
+2024-05-29 02:43:02,941 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 02:43:02,942 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (2).webp
+2024-05-29 02:43:02,942 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (2).webp
+2024-05-29 02:43:02,973 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:43:03,012 - DEBUG - Adding text watermark: ema
+2024-05-29 02:43:03,151 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 02:44:26,438 - DEBUG - Using proactor: IocpProactor
+2024-05-29 02:48:10,240 - DEBUG - Scanning directory: C:\Users\bdex0\Downloads\test
+2024-05-29 02:48:10,241 - DEBUG - Files to process: ['C:\\Users\\bdex0\\Downloads\\test\\a.png', 'C:\\Users\\bdex0\\Downloads\\test\\b.png', 'C:\\Users\\bdex0\\Downloads\\test\\c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_a.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_b.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (2).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_d (2).webp']
+2024-05-29 02:48:10,241 - DEBUG - Applying watermark: C:\Users\bdex0\Downloads\x.png, text: , date: True, image position: middle_center, text position: middle_center, size: 40%, transparency: 128, soft edge: True, font size: 20, font: 
+2024-05-29 02:48:10,241 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\a.png
+2024-05-29 02:48:10,241 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\a.png
+2024-05-29 02:48:10,273 - DEBUG - Importing BlpImagePlugin
+2024-05-29 02:48:10,275 - DEBUG - Importing BmpImagePlugin
+2024-05-29 02:48:10,275 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 02:48:10,278 - DEBUG - Importing CurImagePlugin
+2024-05-29 02:48:10,279 - DEBUG - Importing DcxImagePlugin
+2024-05-29 02:48:10,283 - DEBUG - Importing DdsImagePlugin
+2024-05-29 02:48:10,284 - DEBUG - Importing EpsImagePlugin
+2024-05-29 02:48:10,303 - DEBUG - Importing FitsImagePlugin
+2024-05-29 02:48:10,305 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 02:48:10,306 - DEBUG - Importing FliImagePlugin
+2024-05-29 02:48:10,307 - DEBUG - Importing FpxImagePlugin
+2024-05-29 02:48:10,309 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 02:48:10,309 - DEBUG - Importing FtexImagePlugin
+2024-05-29 02:48:10,310 - DEBUG - Importing GbrImagePlugin
+2024-05-29 02:48:10,311 - DEBUG - Importing GifImagePlugin
+2024-05-29 02:48:10,311 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 02:48:10,313 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 02:48:10,314 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 02:48:10,318 - DEBUG - Importing IcoImagePlugin
+2024-05-29 02:48:10,319 - DEBUG - Importing ImImagePlugin
+2024-05-29 02:48:10,320 - DEBUG - Importing ImtImagePlugin
+2024-05-29 02:48:10,322 - DEBUG - Importing IptcImagePlugin
+2024-05-29 02:48:10,323 - DEBUG - Importing JpegImagePlugin
+2024-05-29 02:48:10,323 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 02:48:10,323 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 02:48:10,324 - DEBUG - Importing MicImagePlugin
+2024-05-29 02:48:10,325 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 02:48:10,326 - DEBUG - Importing MpegImagePlugin
+2024-05-29 02:48:10,327 - DEBUG - Importing MpoImagePlugin
+2024-05-29 02:48:10,328 - DEBUG - Importing MspImagePlugin
+2024-05-29 02:48:10,329 - DEBUG - Importing PalmImagePlugin
+2024-05-29 02:48:10,333 - DEBUG - Importing PcdImagePlugin
+2024-05-29 02:48:10,334 - DEBUG - Importing PcxImagePlugin
+2024-05-29 02:48:10,334 - DEBUG - Importing PdfImagePlugin
+2024-05-29 02:48:10,343 - DEBUG - Importing PixarImagePlugin
+2024-05-29 02:48:10,345 - DEBUG - Importing PngImagePlugin
+2024-05-29 02:48:10,345 - DEBUG - Importing PpmImagePlugin
+2024-05-29 02:48:10,345 - DEBUG - Importing PsdImagePlugin
+2024-05-29 02:48:10,346 - DEBUG - Importing SgiImagePlugin
+2024-05-29 02:48:10,347 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 02:48:10,348 - DEBUG - Importing SunImagePlugin
+2024-05-29 02:48:10,349 - DEBUG - Importing TgaImagePlugin
+2024-05-29 02:48:10,350 - DEBUG - Importing TiffImagePlugin
+2024-05-29 02:48:10,350 - DEBUG - Importing WebPImagePlugin
+2024-05-29 02:48:10,354 - DEBUG - Importing WmfImagePlugin
+2024-05-29 02:48:10,355 - DEBUG - Importing XbmImagePlugin
+2024-05-29 02:48:10,357 - DEBUG - Importing XpmImagePlugin
+2024-05-29 02:48:10,358 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 02:48:10,403 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:48:10,617 - DEBUG - Adding text watermark: 
+2024-05-29 02:48:11,086 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 02:48:11,087 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\b.png
+2024-05-29 02:48:11,087 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\b.png
+2024-05-29 02:48:11,121 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:48:11,336 - DEBUG - Adding text watermark: 
+2024-05-29 02:48:11,708 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 02:48:11,710 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\c.webp
+2024-05-29 02:48:11,710 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\c.webp
+2024-05-29 02:48:11,751 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:48:11,947 - DEBUG - Adding text watermark: 
+2024-05-29 02:48:12,085 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 02:48:12,086 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 02:48:12,086 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 02:48:12,091 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 02:48:12,091 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 02:48:12,126 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:48:12,350 - DEBUG - Adding text watermark: 
+2024-05-29 02:48:12,832 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_a.png
+2024-05-29 02:48:12,833 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 02:48:12,833 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 02:48:12,838 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 02:48:12,838 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 02:48:12,867 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:48:13,066 - DEBUG - Adding text watermark: 
+2024-05-29 02:48:13,461 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_b.png
+2024-05-29 02:48:13,462 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 02:48:13,462 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 02:48:13,484 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:48:13,677 - DEBUG - Adding text watermark: 
+2024-05-29 02:48:13,824 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_c.webp
+2024-05-29 02:48:13,825 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (1).webp
+2024-05-29 02:48:13,825 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (1).webp
+2024-05-29 02:48:13,864 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:48:14,063 - DEBUG - Adding text watermark: 
+2024-05-29 02:48:14,200 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 02:48:14,200 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (2).webp
+2024-05-29 02:48:14,200 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (2).webp
+2024-05-29 02:48:14,235 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:48:14,472 - DEBUG - Adding text watermark: 
+2024-05-29 02:48:14,620 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 02:48:14,621 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 02:48:14,621 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 02:48:14,662 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:48:14,952 - DEBUG - Adding text watermark: 
+2024-05-29 02:48:15,094 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
+2024-05-29 02:48:15,095 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 02:48:15,095 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 02:48:15,154 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:48:15,367 - DEBUG - Adding text watermark: 
+2024-05-29 02:48:15,491 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
+2024-05-29 02:57:41,197 - DEBUG - Using proactor: IocpProactor
+2024-05-29 02:58:28,515 - DEBUG - Scanning directory: C:\Users\bdex0\Downloads\test
+2024-05-29 02:58:28,516 - DEBUG - Files to process: ['C:\\Users\\bdex0\\Downloads\\test\\a.png', 'C:\\Users\\bdex0\\Downloads\\test\\b.png', 'C:\\Users\\bdex0\\Downloads\\test\\c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (2).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_d (2).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_watermarked_d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_watermarked_d (2).webp']
+2024-05-29 02:58:28,516 - DEBUG - Applying watermark: C:\Users\bdex0\Downloads\x.png, text: \U0001f984\u2728, date: True, image position: bottom_left, text position: bottom_center, size: 30%, transparency: 100, soft edge: True, font size: 20, font: 
+2024-05-29 02:58:28,516 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\a.png
+2024-05-29 02:58:28,516 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\a.png
+2024-05-29 02:58:28,530 - DEBUG - Importing BlpImagePlugin
+2024-05-29 02:58:28,531 - DEBUG - Importing BmpImagePlugin
+2024-05-29 02:58:28,531 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 02:58:28,532 - DEBUG - Importing CurImagePlugin
+2024-05-29 02:58:28,533 - DEBUG - Importing DcxImagePlugin
+2024-05-29 02:58:28,534 - DEBUG - Importing DdsImagePlugin
+2024-05-29 02:58:28,535 - DEBUG - Importing EpsImagePlugin
+2024-05-29 02:58:28,548 - DEBUG - Importing FitsImagePlugin
+2024-05-29 02:58:28,549 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 02:58:28,550 - DEBUG - Importing FliImagePlugin
+2024-05-29 02:58:28,551 - DEBUG - Importing FpxImagePlugin
+2024-05-29 02:58:28,553 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 02:58:28,553 - DEBUG - Importing FtexImagePlugin
+2024-05-29 02:58:28,554 - DEBUG - Importing GbrImagePlugin
+2024-05-29 02:58:28,555 - DEBUG - Importing GifImagePlugin
+2024-05-29 02:58:28,555 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 02:58:28,556 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 02:58:28,557 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 02:58:28,560 - DEBUG - Importing IcoImagePlugin
+2024-05-29 02:58:28,561 - DEBUG - Importing ImImagePlugin
+2024-05-29 02:58:28,562 - DEBUG - Importing ImtImagePlugin
+2024-05-29 02:58:28,563 - DEBUG - Importing IptcImagePlugin
+2024-05-29 02:58:28,564 - DEBUG - Importing JpegImagePlugin
+2024-05-29 02:58:28,564 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 02:58:28,564 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 02:58:28,564 - DEBUG - Importing MicImagePlugin
+2024-05-29 02:58:28,566 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 02:58:28,566 - DEBUG - Importing MpegImagePlugin
+2024-05-29 02:58:28,567 - DEBUG - Importing MpoImagePlugin
+2024-05-29 02:58:28,568 - DEBUG - Importing MspImagePlugin
+2024-05-29 02:58:28,569 - DEBUG - Importing PalmImagePlugin
+2024-05-29 02:58:28,571 - DEBUG - Importing PcdImagePlugin
+2024-05-29 02:58:28,572 - DEBUG - Importing PcxImagePlugin
+2024-05-29 02:58:28,572 - DEBUG - Importing PdfImagePlugin
+2024-05-29 02:58:28,581 - DEBUG - Importing PixarImagePlugin
+2024-05-29 02:58:28,583 - DEBUG - Importing PngImagePlugin
+2024-05-29 02:58:28,583 - DEBUG - Importing PpmImagePlugin
+2024-05-29 02:58:28,583 - DEBUG - Importing PsdImagePlugin
+2024-05-29 02:58:28,584 - DEBUG - Importing SgiImagePlugin
+2024-05-29 02:58:28,585 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 02:58:28,586 - DEBUG - Importing SunImagePlugin
+2024-05-29 02:58:28,588 - DEBUG - Importing TgaImagePlugin
+2024-05-29 02:58:28,589 - DEBUG - Importing TiffImagePlugin
+2024-05-29 02:58:28,589 - DEBUG - Importing WebPImagePlugin
+2024-05-29 02:58:28,592 - DEBUG - Importing WmfImagePlugin
+2024-05-29 02:58:28,593 - DEBUG - Importing XbmImagePlugin
+2024-05-29 02:58:28,595 - DEBUG - Importing XpmImagePlugin
+2024-05-29 02:58:28,596 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 02:58:28,629 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:58:28,748 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 02:58:29,233 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 02:58:29,234 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\b.png
+2024-05-29 02:58:29,234 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\b.png
+2024-05-29 02:58:29,276 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:58:29,482 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 02:58:29,880 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 02:58:29,881 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\c.webp
+2024-05-29 02:58:29,881 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\c.webp
+2024-05-29 02:58:29,914 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:58:30,074 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 02:58:30,221 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 02:58:30,222 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (1).webp
+2024-05-29 02:58:30,222 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (1).webp
+2024-05-29 02:58:30,258 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:58:30,416 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 02:58:30,568 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 02:58:30,569 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (2).webp
+2024-05-29 02:58:30,569 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (2).webp
+2024-05-29 02:58:30,599 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:58:30,729 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 02:58:30,855 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 02:58:30,856 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 02:58:30,856 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 02:58:30,917 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:58:31,044 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 02:58:31,191 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
+2024-05-29 02:58:31,193 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 02:58:31,193 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 02:58:31,242 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:58:31,514 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 02:58:31,686 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
+2024-05-29 02:58:31,687 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
+2024-05-29 02:58:31,687 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
+2024-05-29 02:58:31,729 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:58:31,962 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 02:58:32,126 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (1).webp
+2024-05-29 02:58:32,128 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
+2024-05-29 02:58:32,128 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
+2024-05-29 02:58:32,159 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 02:58:32,334 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 02:58:32,486 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (2).webp
+2024-05-29 03:02:00,430 - DEBUG - Using proactor: IocpProactor
+2024-05-29 03:02:48,453 - DEBUG - Scanning directory: C:\Users\bdex0\Downloads\test
+2024-05-29 03:02:48,453 - DEBUG - Files to process: ['C:\\Users\\bdex0\\Downloads\\test\\a.png', 'C:\\Users\\bdex0\\Downloads\\test\\b.png', 'C:\\Users\\bdex0\\Downloads\\test\\c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_a.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_b.png', 'C:\\Users\\bdex0\\Downloads\\test\\watermarked_c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (2).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_d (2).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_watermarked_d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_watermarked_d (2).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_watermarked_watermarked_d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\watermarked_watermarked_watermarked_d (2).webp']
+2024-05-29 03:02:48,453 - DEBUG - Applying watermark: C:\Users\bdex0\Downloads\x.png, text: \U0001f984\u2728, date: True, image position: top_right, text position: bottom_center, size: 40%, transparency: 100, soft edge: False, font size: 20, font: 
+2024-05-29 03:02:48,454 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\a.png
+2024-05-29 03:02:48,454 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\a.png
+2024-05-29 03:02:48,475 - DEBUG - Importing BlpImagePlugin
+2024-05-29 03:02:48,477 - DEBUG - Importing BmpImagePlugin
+2024-05-29 03:02:48,477 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 03:02:48,478 - DEBUG - Importing CurImagePlugin
+2024-05-29 03:02:48,479 - DEBUG - Importing DcxImagePlugin
+2024-05-29 03:02:48,481 - DEBUG - Importing DdsImagePlugin
+2024-05-29 03:02:48,482 - DEBUG - Importing EpsImagePlugin
+2024-05-29 03:02:48,494 - DEBUG - Importing FitsImagePlugin
+2024-05-29 03:02:48,495 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 03:02:48,496 - DEBUG - Importing FliImagePlugin
+2024-05-29 03:02:48,497 - DEBUG - Importing FpxImagePlugin
+2024-05-29 03:02:48,498 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 03:02:48,498 - DEBUG - Importing FtexImagePlugin
+2024-05-29 03:02:48,499 - DEBUG - Importing GbrImagePlugin
+2024-05-29 03:02:48,500 - DEBUG - Importing GifImagePlugin
+2024-05-29 03:02:48,500 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 03:02:48,501 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 03:02:48,502 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 03:02:48,504 - DEBUG - Importing IcoImagePlugin
+2024-05-29 03:02:48,505 - DEBUG - Importing ImImagePlugin
+2024-05-29 03:02:48,506 - DEBUG - Importing ImtImagePlugin
+2024-05-29 03:02:48,507 - DEBUG - Importing IptcImagePlugin
+2024-05-29 03:02:48,508 - DEBUG - Importing JpegImagePlugin
+2024-05-29 03:02:48,508 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 03:02:48,508 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 03:02:48,509 - DEBUG - Importing MicImagePlugin
+2024-05-29 03:02:48,510 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 03:02:48,510 - DEBUG - Importing MpegImagePlugin
+2024-05-29 03:02:48,510 - DEBUG - Importing MpoImagePlugin
+2024-05-29 03:02:48,511 - DEBUG - Importing MspImagePlugin
+2024-05-29 03:02:48,512 - DEBUG - Importing PalmImagePlugin
+2024-05-29 03:02:48,514 - DEBUG - Importing PcdImagePlugin
+2024-05-29 03:02:48,514 - DEBUG - Importing PcxImagePlugin
+2024-05-29 03:02:48,514 - DEBUG - Importing PdfImagePlugin
+2024-05-29 03:02:48,521 - DEBUG - Importing PixarImagePlugin
+2024-05-29 03:02:48,522 - DEBUG - Importing PngImagePlugin
+2024-05-29 03:02:48,522 - DEBUG - Importing PpmImagePlugin
+2024-05-29 03:02:48,522 - DEBUG - Importing PsdImagePlugin
+2024-05-29 03:02:48,523 - DEBUG - Importing SgiImagePlugin
+2024-05-29 03:02:48,524 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 03:02:48,526 - DEBUG - Importing SunImagePlugin
+2024-05-29 03:02:48,527 - DEBUG - Importing TgaImagePlugin
+2024-05-29 03:02:48,528 - DEBUG - Importing TiffImagePlugin
+2024-05-29 03:02:48,528 - DEBUG - Importing WebPImagePlugin
+2024-05-29 03:02:48,532 - DEBUG - Importing WmfImagePlugin
+2024-05-29 03:02:48,533 - DEBUG - Importing XbmImagePlugin
+2024-05-29 03:02:48,535 - DEBUG - Importing XpmImagePlugin
+2024-05-29 03:02:48,536 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 03:02:48,576 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:48,604 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:49,041 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 03:02:49,042 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\b.png
+2024-05-29 03:02:49,043 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\b.png
+2024-05-29 03:02:49,082 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:49,110 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:49,482 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 03:02:49,483 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\c.webp
+2024-05-29 03:02:49,483 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\c.webp
+2024-05-29 03:02:49,514 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:49,540 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:49,670 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 03:02:49,671 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 03:02:49,671 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 03:02:49,679 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 03:02:49,680 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 03:02:49,725 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:49,766 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:50,260 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_a.png
+2024-05-29 03:02:50,261 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 03:02:50,262 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 03:02:50,267 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-29 03:02:50,268 - DEBUG - STREAM b'IDAT' 41 65536
+2024-05-29 03:02:50,310 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:50,347 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:50,723 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_b.png
+2024-05-29 03:02:50,724 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 03:02:50,724 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 03:02:50,749 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:50,783 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:50,909 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\watermarked_c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_watermarked_c.webp
+2024-05-29 03:02:50,911 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (1).webp
+2024-05-29 03:02:50,911 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (1).webp
+2024-05-29 03:02:50,945 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:50,974 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:51,122 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 03:02:51,123 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (2).webp
+2024-05-29 03:02:51,124 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (2).webp
+2024-05-29 03:02:51,155 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:51,188 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:51,368 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 03:02:51,370 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 03:02:51,370 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 03:02:51,411 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:51,450 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:51,587 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
+2024-05-29 03:02:51,587 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 03:02:51,588 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
+2024-05-29 03:02:51,618 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:51,650 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:51,776 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
+2024-05-29 03:02:51,777 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
+2024-05-29 03:02:51,777 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp
+2024-05-29 03:02:51,814 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:51,845 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:52,008 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (1).webp
+2024-05-29 03:02:52,009 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
+2024-05-29 03:02:52,009 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp
+2024-05-29 03:02:52,044 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:52,072 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:52,217 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (2).webp
+2024-05-29 03:02:52,218 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (1).webp
+2024-05-29 03:02:52,218 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (1).webp
+2024-05-29 03:02:52,250 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:52,277 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:52,437 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_watermarked_d (1).webp
+2024-05-29 03:02:52,438 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (2).webp
+2024-05-29 03:02:52,439 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (2).webp
+2024-05-29 03:02:52,488 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:02:52,515 - DEBUG - Adding text watermark: \U0001f984\u2728
+2024-05-29 03:02:52,651 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_watermarked_watermarked_watermarked_d (2).webp
+2024-05-29 03:03:42,941 - DEBUG - Using proactor: IocpProactor
+2024-05-29 03:04:11,767 - DEBUG - Scanning directory: C:\Users\bdex0\Downloads\test
+2024-05-29 03:04:11,768 - DEBUG - Files to process: ['C:\\Users\\bdex0\\Downloads\\test\\a.png', 'C:\\Users\\bdex0\\Downloads\\test\\b.png', 'C:\\Users\\bdex0\\Downloads\\test\\c.webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (1).webp', 'C:\\Users\\bdex0\\Downloads\\test\\test\\d (2).webp']
+2024-05-29 03:04:11,768 - DEBUG - Applying watermark: C:\Users\bdex0\Downloads\x.png, text: \U0001f984\u2728TEST, date: True, image position: top_center, text position: bottom_center, size: 40%, transparency: 128, soft edge: False, font size: 20, font: 
+2024-05-29 03:04:11,768 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\a.png
+2024-05-29 03:04:11,768 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\a.png
+2024-05-29 03:04:11,791 - DEBUG - Importing BlpImagePlugin
+2024-05-29 03:04:11,793 - DEBUG - Importing BmpImagePlugin
+2024-05-29 03:04:11,793 - DEBUG - Importing BufrStubImagePlugin
+2024-05-29 03:04:11,795 - DEBUG - Importing CurImagePlugin
+2024-05-29 03:04:11,796 - DEBUG - Importing DcxImagePlugin
+2024-05-29 03:04:11,798 - DEBUG - Importing DdsImagePlugin
+2024-05-29 03:04:11,799 - DEBUG - Importing EpsImagePlugin
+2024-05-29 03:04:11,819 - DEBUG - Importing FitsImagePlugin
+2024-05-29 03:04:11,821 - DEBUG - Importing FitsStubImagePlugin
+2024-05-29 03:04:11,822 - DEBUG - Importing FliImagePlugin
+2024-05-29 03:04:11,823 - DEBUG - Importing FpxImagePlugin
+2024-05-29 03:04:11,824 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-05-29 03:04:11,824 - DEBUG - Importing FtexImagePlugin
+2024-05-29 03:04:11,825 - DEBUG - Importing GbrImagePlugin
+2024-05-29 03:04:11,826 - DEBUG - Importing GifImagePlugin
+2024-05-29 03:04:11,826 - DEBUG - Importing GribStubImagePlugin
+2024-05-29 03:04:11,827 - DEBUG - Importing Hdf5StubImagePlugin
+2024-05-29 03:04:11,827 - DEBUG - Importing IcnsImagePlugin
+2024-05-29 03:04:11,831 - DEBUG - Importing IcoImagePlugin
+2024-05-29 03:04:11,831 - DEBUG - Importing ImImagePlugin
+2024-05-29 03:04:11,832 - DEBUG - Importing ImtImagePlugin
+2024-05-29 03:04:11,833 - DEBUG - Importing IptcImagePlugin
+2024-05-29 03:04:11,834 - DEBUG - Importing JpegImagePlugin
+2024-05-29 03:04:11,834 - DEBUG - Importing Jpeg2KImagePlugin
+2024-05-29 03:04:11,834 - DEBUG - Importing McIdasImagePlugin
+2024-05-29 03:04:11,835 - DEBUG - Importing MicImagePlugin
+2024-05-29 03:04:11,836 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-05-29 03:04:11,836 - DEBUG - Importing MpegImagePlugin
+2024-05-29 03:04:11,837 - DEBUG - Importing MpoImagePlugin
+2024-05-29 03:04:11,838 - DEBUG - Importing MspImagePlugin
+2024-05-29 03:04:11,839 - DEBUG - Importing PalmImagePlugin
+2024-05-29 03:04:11,840 - DEBUG - Importing PcdImagePlugin
+2024-05-29 03:04:11,841 - DEBUG - Importing PcxImagePlugin
+2024-05-29 03:04:11,841 - DEBUG - Importing PdfImagePlugin
+2024-05-29 03:04:11,847 - DEBUG - Importing PixarImagePlugin
+2024-05-29 03:04:11,848 - DEBUG - Importing PngImagePlugin
+2024-05-29 03:04:11,848 - DEBUG - Importing PpmImagePlugin
+2024-05-29 03:04:11,848 - DEBUG - Importing PsdImagePlugin
+2024-05-29 03:04:11,848 - DEBUG - Importing SgiImagePlugin
+2024-05-29 03:04:11,849 - DEBUG - Importing SpiderImagePlugin
+2024-05-29 03:04:11,850 - DEBUG - Importing SunImagePlugin
+2024-05-29 03:04:11,851 - DEBUG - Importing TgaImagePlugin
+2024-05-29 03:04:11,852 - DEBUG - Importing TiffImagePlugin
+2024-05-29 03:04:11,852 - DEBUG - Importing WebPImagePlugin
+2024-05-29 03:04:11,853 - DEBUG - Importing WmfImagePlugin
+2024-05-29 03:04:11,854 - DEBUG - Importing XbmImagePlugin
+2024-05-29 03:04:11,857 - DEBUG - Importing XpmImagePlugin
+2024-05-29 03:04:11,858 - DEBUG - Importing XVThumbImagePlugin
+2024-05-29 03:04:11,896 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:04:11,922 - DEBUG - Adding text watermark: \U0001f984\u2728TEST
+2024-05-29 03:04:12,386 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\a.png, saved as C:\Users\bdex0\Downloads\test\watermarked_a.png
+2024-05-29 03:04:12,388 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\b.png
+2024-05-29 03:04:12,388 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\b.png
+2024-05-29 03:04:12,424 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:04:12,451 - DEBUG - Adding text watermark: \U0001f984\u2728TEST
+2024-05-29 03:04:12,828 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\b.png, saved as C:\Users\bdex0\Downloads\test\watermarked_b.png
+2024-05-29 03:04:12,829 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\c.webp
+2024-05-29 03:04:12,829 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\c.webp
+2024-05-29 03:04:12,858 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:04:12,885 - DEBUG - Adding text watermark: \U0001f984\u2728TEST
+2024-05-29 03:04:13,021 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\c.webp, saved as C:\Users\bdex0\Downloads\test\watermarked_c.webp
+2024-05-29 03:04:13,022 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (1).webp
+2024-05-29 03:04:13,022 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (1).webp
+2024-05-29 03:04:13,060 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:04:13,088 - DEBUG - Adding text watermark: \U0001f984\u2728TEST
+2024-05-29 03:04:13,225 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (1).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (1).webp
+2024-05-29 03:04:13,225 - DEBUG - Processing file: C:\Users\bdex0\Downloads\test\test\d (2).webp
+2024-05-29 03:04:13,226 - DEBUG - Opening base image: C:\Users\bdex0\Downloads\test\test\d (2).webp
+2024-05-29 03:04:13,256 - DEBUG - Opening watermark image: C:\Users\bdex0\Downloads\x.png
+2024-05-29 03:04:13,284 - DEBUG - Adding text watermark: \U0001f984\u2728TEST
+2024-05-29 03:04:13,415 - INFO - Watermark applied to image file: C:\Users\bdex0\Downloads\test\test\d (2).webp, saved as C:\Users\bdex0\Downloads\test\test\watermarked_d (2).webp
