@@ -8,7 +8,7 @@ A simple yet effective cli app, that can help bulk-editing of files inside a fol
 ✨ OR, oyu can write your own function to be exceuted! 
 
 TODO: \
-[ ] improve generality \
-[ ] add pixelate functionality \
-[ ] handle log cleaning \
-[ ] improve ux 
+- [ ] improve generality \
+- [ ] add pixelate functionality \
+- [ ] handle log cleaning \
+- [ ] improve ux 
